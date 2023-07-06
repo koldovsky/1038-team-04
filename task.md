@@ -2,6 +2,8 @@
 Сайт оригінал https://heh5e.weblium.site/
 
 Дерево сайту 
+https://koldovsky.github.io/1038-team-04/
+
 -img/
 -index.html тут теги h1 і h2 важливі
 -about.html  (about-location) ,tag h2 =>  'About Yosemite'
