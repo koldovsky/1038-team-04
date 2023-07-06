@@ -1,5 +1,5 @@
 Пртвіт . Тут кидаємо інформацію по проекту і пропозиції 
-Сайт оригінал https://heh5e.weblium.site/
+Сайт оригінал https://4yh8b.weblium.site
 
 Дерево сайту 
 https://koldovsky.github.io/1038-team-04/
