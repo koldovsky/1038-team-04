@@ -8,7 +8,7 @@ https://koldovsky.github.io/1038-team-04/
 -index.html тут теги h1 і h2 важливі
 -about.html  (about-location) ,tag h2 =>  'About Yosemite'
 -gallery.html (photo-gallery), tag => h2  'Gallery'
--accommodations.html (rent-offer-accommodations), tag => h2  'Cabin Rentals'
+-offer.html (rent-offer-accommodations), tag => h2  'Cabin Rentals'
 -contact.html  (contact) ,tag => h2 'How to Get There'
 -policies.html (rental-policies), tag => h2 ' Rental policies'
 
