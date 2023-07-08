@@ -1,20 +1,43 @@
  /* global*/
-h2{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #fb6d3a;} 
-li{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #fb6d3a;} 
-p{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #fb6d3a;} 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --title-color: red;
+    --border-color:  #f2ff00d9;
+    --title-background-color: aqua;
+    --title-font-family: 'Fredoka', sans-serif;
+    scroll-behavior: smooth;
+    font-family: 'Fredoka', sans-serif;;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    color: var(--title-color);
+    font-family: var(--title-font-family);
+    font-weight: normal;
+}
+
+p {
+    max-width: 644px;
+}
+/*
+p::first-letter {
+    font-size: 3rem;
+}
+
+*/
