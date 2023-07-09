@@ -1,0 +1,51 @@
+ /* global*/
+ @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ :root {
+     /*black */
+     --text-color: #333333;
+     /*cyan tone*/
+     --icons-color: #599673;
+     /*orange tone */
+     --title-color: #f98250;
+     /* white*/
+     --background-color: #ffffff;
+     /*gray*/
+     --fields-border-color: #d0d0d0;
+     /*light gray*/
+     --fields-background-color: #f5f5f5;
+
+     --title-font-family: 'Fredoka', sans-serif;
+     scroll-behavior: smooth;
+     font-family: 'Montserrat', sans-serif;
+
+ }
+
+ img {
+     display: block;
+     width: 100%;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ h1 {
+     font-family: var(--title-font-family);
+     font-weight: normal;
+ }
+
+ h2 {
+     font-family: var(--title-font-family);
+     font-weight: normal;
+ }
+
+ p {
+     max-width: 644px;
+ }

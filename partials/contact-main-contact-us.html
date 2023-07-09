@@ -1,3 +1,43 @@
 <section>
-    <p>Build contact</p>
+    <!--select images changes -->
+    <img src="img/contacts_form_background.jpeg" alt="contacts background">
+    <div>
+        <div>
+            <h2>Contact Us</h2>
+            <p> If you have any questions, feel free to get in touch with us at any time.</p>
+        </div>
+        <div>
+            <div>
+                <h3>Write Us </h3>
+                <a href="mailto:yosemite@email.com">yosemite@email.com</a>
+
+            </div>
+            <div>
+                <h3>Call Us</h3>
+                <a href="tel:+1123456789">+1 (123) 45 67 89</a> <br>
+                <a href="tel:+1123456700">+1 (123) 45 67 00</a>
+            </div>
+            <div>
+                <h3>Visit Us</h3>
+                <p>Yosemite Mariposa County,
+                    Ca, USA
+                </p>
+            </div>
+        </div>
+        <!-- form -->
+        <form action="" method="get">
+            <div>
+                <label for="contact-name"></label>
+                <input type="text" name="contact-name" id="contact-name" placeholder="Name*" required>
+            </div>
+            <div>
+                <label for="contact-pnumber"></label>
+                <input type="tel" pattern="[0-9]{9}" name="contact-pnumber" id="contact-pnumber"
+                    placeholder="Phone number*" required>
+            </div>
+            <div>
+                <input type="submit" value="SEND">
+            </div>
+        </form>
+    </div>
 </section>

@@ -1,17 +1,19 @@
-<form action="" method="get">
-    <input type="text" value="Name">
-    <input type="text" value="Phone number">
-    <input type="text" value="Check in date">
-    <input type="text" value="Check out date">
-    <select name="Number of guests">
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-        <option>5+</option>
-    </select>
-    <input type="submit" value="Make a reservation">
-
-
-</form>
+<div class="reservation">
+    <h2 class="reservation-title">Make a reservation</h2>
+    <p class="reservation-description">Please complete the form below</p>
+    <form action="" method="" class="reservation-form">
+        <input type="text" placeholder="Name" class="reservation-input">
+        <input type="text" placeholder="Phone number" class="reservation-input">
+        <input type="text" placeholder="Check in date" class="reservation-input">
+        <input type="text" placeholder="Check out date" class="reservation-input">
+        <select name="Number of guests" aria-placeholder="Number of guests" class="reservation-select">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>5+</option>
+        </select>
+        <input type="submit" placeholder="Make a reservation" class="reservation-submit">
+    </form>
+</div>
