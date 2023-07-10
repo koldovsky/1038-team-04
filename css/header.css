@@ -1,0 +1,35 @@
+.header__info {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.header__location {
+    text-align: center;
+}
+
+.header__logo img {
+    width: 180px;
+}
+
+.header__contact-link {
+    display: flex;
+    flex-direction: column;
+    color: var(--title-color);
+}
+
+.header__menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 40px 30px 40px;
+    
+}
+.header__menu-link {
+    color: var(--text-color);
+    font-weight: 700;
+    margin: 5px 22px;
+}
+.header__menu-link:hover {
+    color: var(--title-color);
+}
