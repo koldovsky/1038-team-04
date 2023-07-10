@@ -3,7 +3,6 @@
 }
 
 /* content left sydes*/
-
 .contacts_us__content_info-title {
     color: white;
 }
@@ -18,12 +17,46 @@
 
 /*form right sydes*/
 .contacts_us__form {
-    width: auto;
-    padding: 20px;
-    background-color: var(--title-color);
+    margin: 10px 10px 10px 10px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    background-color: var(--background-color);
     border-radius: 10px;
 }
+
+.contacts_us__form-button {
+    background-color: var(--background-color);
+}
+
 .contacts_us__form-label {
-    background-color: var(--fields-background-color) ;
-    color:var(--fields-border-color) ;
+    color: var(--fields-border-color);
+}
+
+.contacts_us__form-input {
+    width: 90%;
+    border-radius: 20px;
+    padding: 16px;
+    margin: 10px 10px 10px 10px;
+    border: none;
+    background-color: lightgray;
+    font-size: 16px;
+    text-align: left;
+    /* hight long*/
+}
+
+.contacts_us__form-input-button {
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    margin: 30px 10px 10px 10px;
+    padding: 16px;
+    font-size: 16px;
+    color: white;
+    background-color: var(--title-color);
+    /* hight long*/
+}
+
+.contacts_us__form-input-button:hover {
+    background-color: var(--icons-color);
 }
