@@ -1,6 +1,7 @@
 .things-to-do__title {
     color: var(--text-color);
     /*font-family: "Circular Std", serif;*/
+    display: inline;
     font-size: 39px;
     font-weight: 500;
     text-align: center;
@@ -9,6 +10,7 @@
 .cards__heading {
     color: var(--text-color);
     /*font-family: "Circular Std", serif;*/
+    display: inline;
     font-size: 23px;
     font-weight: 500;
     text-align: center;
@@ -17,6 +19,7 @@
 .cards__subheading {
     box-sizing: border-box;
     color: var(--title-color);
+    display: inline;
     /*font-family: "Circular Std", serif;*/
     font-size: 20px;
     font-weight: 500;
@@ -25,19 +28,21 @@
 
 .cards__description {
     color: var(--description-color);
+    display: inline;
     font-family: var(--description-font-family);
     font-size: 16px;
     font-weight: 400;
     text-align: center;
 }
 
-.cards__image {
-    border-radius: 10px;
-    border-color: rgb(40, 37, 32);
-}
-
 .cards__item {
     background-color: var(--background-color);
     border-color: rgb(40, 37, 32);
+    display: block;
     padding: 10px;
+}
+
+.cards__image {
+    border-radius: 10px;
+    border-color: rgb(40, 37, 32);    
 }
