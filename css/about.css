@@ -2,6 +2,9 @@
 @import url(global.css);
 
 /* header */
+ @import url(header.css); 
+
+/* header */
 /* @import url(name.css); */
 
 /* main */
