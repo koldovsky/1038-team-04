@@ -1,1 +1,29 @@
-/* start */
+.contacts_us__main {
+    background-image: url("../img/contacts_form_background.jpeg");
+}
+
+/* content left sydes*/
+
+.contacts_us__content_info-title {
+    color: white;
+}
+
+.contacts_us__content_info-subtitle {
+    color: white;
+}
+
+.contacts_us__content_info-text {
+    color: white;
+}
+
+/*form right sydes*/
+.contacts_us__form {
+    width: auto;
+    padding: 20px;
+    background-color: var(--title-color);
+    border-radius: 10px;
+}
+.contacts_us__form-label {
+    background-color: var(--fields-background-color) ;
+    color:var(--fields-border-color) ;
+}
