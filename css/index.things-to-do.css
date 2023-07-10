@@ -1,22 +1,6 @@
-.header__banner-title {
-    border: 2px solid var(--border-color);
-    color: var(--title-color);
-    padding: 10px;
-    /* border-radius: 50%; */
-    margin: 20px;
-}
-
-.header__nav-links {
-    background-color: var(--title-background-color);
-}
-
-.header__nav-links li {
-    border: 1px solid var(--border-color);
-}
-
-ul {
-    background-color: green;
-}
 .cards__subheading {
     color: var(--title-color);
+}
+.cards__description {
+    color: var(--description-color);
 }
