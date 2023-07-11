@@ -1,10 +1,6 @@
-/* gallery */
 @import url(global.css);
-/* header */
 @import url(header.css); 
-
-/* main */
-/* @import url(name.css); */
+ @import url(gallery-main-seasons.css); 
 
 /*footer */
 /* @import url(name.css); */
