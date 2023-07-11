@@ -1,9 +1,14 @@
 .reservation {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .reservation-container{
     background-image: url(../img/form-bg.jpeg);
+    background-repeat: no-repeat;
+    min-height: 1000px;
+    background-size: cover;
 }
 .reservation-form{
     display: flex;
