@@ -41,6 +41,17 @@
 .reservation-submit:hover{
     background-color: var(--icons-color);
 }
+.reservation-select{
+    min-width: 350px;
+    height: 20px;
+    border-radius: 40px;
+    min-height: 48px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 16px 24px;
+    background-color: var(--fields-border-color);
+    border: 0px;
+}
 .reservation-title{
     font-weight: bolder;
     font-family: var(--title-font-family);
