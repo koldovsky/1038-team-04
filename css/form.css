@@ -1,29 +1,39 @@
 .reservation {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+    min-height: 466px;
+    padding: 20px;
+    border-radius: 20px;
 }
 .reservation-container{
     background-image: url(../img/form-bg.jpeg);
     background-repeat: no-repeat;
     min-height: 1000px;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .reservation-form{
     display: flex;
     flex-direction: column;
 }
 .reservation-input{
-        border-radius: 34px;
-        min-height: 48px;
-        margin-top: 12px;
-        margin-bottom: 12px;
-        padding: 16px 24px;
+    min-width: 500px;
+    min-height: 20px;
+    border-radius: 40px;
+    min-height: 48px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 16px 24px;
 }
 .reservation-submit{
     background-color: var(--title-color);
-    margin-top: 56px;
-    min-height: 46px;
+    margin-top: 50px;
+    min-height: 50px;
+    border-radius: 40px;
 }
 .reservation-submit:hover{
     background-color: var(--icons-color);

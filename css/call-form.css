@@ -30,7 +30,6 @@
     background-color: var(--title-color);
     margin-top: 56px;
     min-height: 46px;
-    border-radius: 10px;
 }
 .call-order__btn:hover {
     background-color: var(--icons-color);
