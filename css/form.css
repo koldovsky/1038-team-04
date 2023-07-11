@@ -6,6 +6,7 @@
     min-height: 466px;
     padding: 30px;
     border-radius: 20px;
+    text-align: center;
 }
 .reservation-container{
     background-image: url(../img/form-bg.jpeg);
@@ -39,4 +40,14 @@
 }
 .reservation-submit:hover{
     background-color: var(--icons-color);
+}
+.reservation-title{
+    font-weight: bolder;
+    font-family: var(--title-font-family);
+    font-size:xx-large;
+}
+.reservation-description{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: --description-font-family;
 }
