@@ -1,0 +1,30 @@
+.reservation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reservation-container{
+    background-image: url(../img/form-bg.jpeg);
+    background-repeat: no-repeat;
+    min-height: 1000px;
+    background-size: cover;
+}
+.reservation-form{
+    display: flex;
+    flex-direction: column;
+}
+.reservation-input{
+        border-radius: 34px;
+        min-height: 48px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        padding: 16px 24px;
+}
+.reservation-submit{
+    background-color: var(--title-color);
+    margin-top: 56px;
+    min-height: 46px;
+}
+.reservation-submit:hover{
+    background-color: var(--icons-color);
+}
