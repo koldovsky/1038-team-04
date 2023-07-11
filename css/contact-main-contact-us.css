@@ -3,10 +3,12 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/contacts_form_background.jpeg");
     background-position: center;
     background-size: cover;
+    
 }
 
 .contacts_us__content {
     padding: 0px 15px;
+    
 }
 
 .contacts_us__content_info-title {
@@ -96,11 +98,8 @@
     }
 
     .contacts_us {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        flex: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .contacts_us__content_mail-title,
