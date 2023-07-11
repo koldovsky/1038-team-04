@@ -1,0 +1,11 @@
+.reservation {
+    display: flex;
+    flex-direction: column;
+}
+.reservation-container{
+    background-image: url(../img/form-bg.jpeg);
+}
+.reservation-form{
+    display: flex;
+    flex-direction: column;
+}
