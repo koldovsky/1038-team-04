@@ -5,11 +5,10 @@
     overflow-x: hidden;
 }
 .rental-policies{
-    padding-top: 80px;
     font-family: var(--description-font-family);
     font-weight: 400;
     line-height: 25px;
-    /* margin: 0 24px; */
+    padding: 80px 5px 0;
 }
 .rental-policies__title{
     font-size: 34px;
@@ -45,6 +44,7 @@
     max-width: 352px;
     display: flex;
     justify-content: space-between;
+    gap: 8px;
     margin-bottom: 33px;
 }
 .rental-policies__items-item:last-child{
@@ -74,8 +74,30 @@
     height: 26px;
 }
 .item__description{
-    max-width: 280px;
+    max-width: 272px;
 }
 .description-subtitle-space{
     margin-bottom: 32px;
 }
+/* @media (min-width:401px){
+    .rental-policies {
+        padding: 0 32px;
+    }
+    .container{
+        margin: auto;
+        max-width: 740px;
+        display: block;
+        overflow-x: hidden;
+    }
+}
+@media (min-width:801px){
+    .rental-policies {
+        padding: 0 15px;
+    }
+    .container{
+        margin: auto;
+        max-width: 1170px;
+        display: block;    
+        overflow-x: hidden;
+    }
+} */

@@ -121,7 +121,7 @@
 }
 @media (min-width:801px){
     .season-activities {
-        margin: 0 15px;
+        padding: 0 15px;
     }
     .container{
         margin: auto;
