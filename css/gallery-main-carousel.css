@@ -1,0 +1,5 @@
+.gallery_carousel {
+    background-image: url("../img/gallery_carousel_background.jpeg");
+    background-position: center;
+    background-size: cover;
+}
