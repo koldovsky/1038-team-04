@@ -1,0 +1,36 @@
+.call-order {
+    min-height: 726px;
+    background-image: url(../img/call-form-bg.jpg);
+    background-size: cover;
+    padding-top: 140px;
+    
+}
+.call-order__wrapper {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    text-align: center;
+    border-radius: 10px;
+    width: 416px;
+}
+
+.call-order__form {
+    display: flex;
+    flex-direction: column;
+}
+.call-order__input {
+    border-radius: 34px;
+    min-height: 48px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 16px 24px;
+}
+.call-order__btn {
+    background-color: var(--title-color);
+    margin-top: 56px;
+    min-height: 46px;
+}
+.call-order__btn:hover {
+    background-color: var(--icons-color);
+}

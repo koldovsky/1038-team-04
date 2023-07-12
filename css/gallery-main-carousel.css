@@ -1,0 +1,10 @@
+.gallery_carousel {
+    background-image: url("../img/gallery_carousel_background.jpeg");
+}
+.gallery_carousel__title {
+    color: white;
+    font-size: 44px ;
+    padding-top: 100px ;
+    text-align: center;
+    font-family: var(--title-font-family);
+}

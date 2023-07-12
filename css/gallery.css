@@ -1,50 +1,7 @@
-/* gallery */
 @import url(global.css);
-/* header */
 @import url(header.css); 
+@import url(gallery-main-seasons.css); 
+@import url(gallery-main-carousel.css)
 
-/* main */
-/* @import url(name.css); */
-<style>
-      h1 { text-align: center }
-      ul {
-        display: flex;
-        justify-content: center;
-        list-style-type: none;
-      }
-      li {
-        margin: 0 10px;
-      }
-      .block {
-        display: none;
-        height: 500px;
-        margin-bottom: 20px;
-      }
-      .gallery-picture__summer,
-      .gallery-picture__winter,
-      .gallery-picture__spring,
-      .gallery-picture__autumn,
-      .gallery-picture__fishing,
-      .gallery-picture__spa
-       {
-        text-align: center;
-      }
-      .img-line,
-      .gallery-picture__summer-up,
-      .gallery-picture__summer-middle,
-      .gallery-picture__summer-down,
-      .gallery-picture__winter-up,
-      .gallery-picture__winter-middle,
-      .gallery-picture__winter-doun,
-      .gallery-picture__spring-down,
-      .gallery-picture__autumn-down,
-      .gallery-picture__fishing-doun,
-      .gallery-picture__spa-down { 
-        padding: 15px; 
-        background: white; 
-        margin-right: 10px; 
-        margin-bottom: 10px; 
-      }
-    </style>
 /*footer */
 /* @import url(name.css); */

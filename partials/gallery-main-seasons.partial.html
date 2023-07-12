@@ -1,106 +1,80 @@
 <section>
-  <div>
-        <h1>Gallery</h1>
+    <div class="img"></div>
+        <h1 class="season-gallery__title">Gallery</h1>
+        <div>
+            <ul class="list-seasons-name">
+                <li><a href="#gallery-picture__summer" onclick="toggleBlock('summer')">Summer</a></li>
+                <li><a href="#gallery-picture__winter" onclick="toggleBlock('winter')">Winter</a></li>
+                <li><a href="#gallery-picture__spring" onclick="toggleBlock('spring')">Spring</a></li>
+                <li><a href="#gallery-picture__autumn" onclick="toggleBlock('autumn')">Autumn</a></li>
+                <li><a href="#gallery-picture__fishing" onclick="toggleBlock('fishing')">Fishing</a></li>
+                <li><a href="#gallery-picture__spa" onclick="toggleBlock('spa')">SPA</a></li>
+            </ul>
+            <div id="summer" class="bloc_summer">
+                <div id="gallery-picture__summer" class="gallery-picture__summer">
+                    <img class="picture-summer_house-on-the-mountain" src="img/summer-house-on-the-mountain.jpg" alt="house on the mountain">
+                    <img class="picture-summer_horse" src="img/summer-horse.jpg" alt="horse in summer">
+                    <img class="picture-summer_lake" src="img/summer-lake.jpg" alt="lake in summer">
+                    <img class="picture-summer_house-interior" src="img/summer-house-interior.jpg" alt="house interior">
+                    <img class="picture-summer_house-in-the-forest" src="img/summer-house-in-the-forest.jpg" alt="house in the forest">
+                    <img class="picture-summer_house-with-flowers" src="img/summer-house-with-flowers.jpg" alt="house with flowers">
+                </div>
+            </div>
+            
+            <div id="winter" class="block winter">
+                <div id="gallery-picture__winter" class="gallery-picture__winter">
+                    <img class="picture-winter_mountains" src="img/winter-mountains.jpg" alt="mountains in winter">
+                    <img class="picture-winter_skier" src="img/winter-skier.jpg" alt="skier on the mount">
+                    <img class="picture-winter_girl-with-coffee"" src="img/winter-girl-with-coffee.jpg" alt="girl with coffee">
+                    <img class="picture-winter_house-by-the-lake" src="img/winter-house-by-the-lake.jpg" alt="house by the lake in winter">
+                    <img class="picture-winter_horse" src="img/winter-horse.jpg" alt="horse in winter">
+                    <img class="picture-winter_houses-in-the-mountains" src="img/winter-houses-in-the-mountains.jpg" alt="houses in the mountin in winter">
+                </div>    
+            </div>
+            <div id="block3" class="block block3">
+                <div id="gallery-picture__spring" class="gallery-picture__spring">
+                    <div class="img-line gallery-picture__spring-up">
+                        <img class="picture-winter_mountains" src="img/spring-house-on-the-mountain.jpg" alt="House in the forest">
+                    </div>
+                    <div class="img-line gallery-picture__spring-down">
+                        <img width="300" src="img/spring-house-near-the-lake.jpg" alt="House in the forest">
+                        <img width="300" src="img/spring-hous-in-the-forest.jpg" alt="House in the forest">
+                    </div>
+                </div>
+            </div>
+            <div id="block4" class="block block4">
+                <div id="gallery-picture__autumn" class="gallery-picture__autumn">
+                    <div class="img-line gallery-picture__autumn-up">
+                        <img width="600" src="img/autumn-gray-house.jpg" alt="House in the forest">
+                    </div>
+                    <div class="img-line gallery-picture__autumn-down">
+                        <img width="300" src="img/autumn-house-in-the-forest.jpg" alt="House in the forest">
+                        <img width="300" src="img/autumn-girl-near-the-house.jpg" alt="House in the forest">
+                    </div>
+                </div>
+            </div>
+            <div id="block5" class="block block5">
+                <div id="gallery-picture__fishing" class="gallery-picture__fishing">
+                    <div class="img-line gallery-picture__fishing-up">
+                        <img width="600" src="img/fishing-fisherman.jpg" alt="House in the forest">
+                    </div>
+                    <div class="img-line gallery-picture__fishing-down">
+                        <img width="300" src="img/fishing-wooden-boat.jpg" alt="House in the forest">
+                        <img width="300" src="img/fishing-red-boat.jpg" alt="House in the forest">
+                    </div>
+                </div>
+            </div>
+            <div id="block6" class="block block6">
+                <div id="gallery-picture__spa" class="gallery-picture__spa">
+                    <div class="img-line gallery-picture__spa-up">
+                        <img width="600" src="img/spa-window.jpg" alt="House in the forest">
+                    </div>
+                    <div class="img-line gallery-picture__spa-down">
+                        <img width="300" src="img/spa-bath.jpg" alt="House in the forest">
+                        <img width="300" src="img/spa-terrace.jpg" alt="House in the forest">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div>
-        <ul>
-            <li><a href="#gallery-picture__summer" onclick="toggleBlock('block1')">Summer</a></li>
-            <li><a href="#gallery-picture__winter" onclick="toggleBlock('block2')">Winter</a></li>
-            <li><a href="#gallery-picture__spring" onclick="toggleBlock('block3')">Spring</a></li>
-            <li><a href="#gallery-picture__autumn" onclick="toggleBlock('block4')">Autumn</a></li>
-            <li><a href="#gallery-picture__fishing" onclick="toggleBlock('block5')">Fishing</a></li>
-            <li><a href="#gallery-picture__spa" onclick="toggleBlock('block6')">SPA</a></li>
-        </ul>
-        
-        <div id="block1" class="block block1">
-            <div id="gallery-picture__summer" class="gallery-picture__summer">
-                <div class="img-line gallery-picture__summer-up">
-                    <img width="300" src="img/summer-house-on-the-mountain.jpg" alt="House in the forest">
-                    <img width="300" src="img/summer-horse.jpg" alt="House in the forest">
-                </div>
-                <div class="img-line gallery-picture__summer-middle">
-                    <img width="300" src="img/summer-lake.jpg" alt="House in the forest">
-                    <img width="300" src="img/summer-house-interior.jpg" alt="House in the forest">
-                </div>
-                <div class="img-line gallery-picture__summer-down">
-                    <img width="300" src="img/summer-house-in-the-forest.jpg" alt="House in the forest">
-                    <img width="300" src="img/summer-house-with-flowers.jpg" alt="House in the forest">
-                </div>
-            </div>
-        </div>
-        
-        <div id="block2" class="block block2">
-            <div id="gallery-picture__winter" class="gallery-picture__winter">
-                <div class="img-line gallery-picture__winter-up">
-                    <img width="300" src="img/winter-mountains.jpg" alt="House in the forest">
-                    <img width="300" src="img/winter-skier.jpg" alt="House in the forest">
-                </div>
-                <div class="img-line gallery-picture__winter-middle">
-                    <img width="300" src="img/winter-girl-with-coffee.jpg" alt="House in the forest">
-                    <img width="300" src="img/winter-house-by-the-lake.jpg" alt="House in the forest">
-                </div>
-                <div class="img-line gallery-picture__winter-down">
-                    <img width="300" src="img/winter-horse.jpg" alt="House in the forest">
-                    <img width="300" src="img/winter-houses-in-the-mountains.jpg" alt="House in the forest">
-                </div>
-            </div>
-        </div>
-        <div id="block3" class="block block3">
-            <div id="gallery-picture__spring" class="gallery-picture__spring">
-                <div class="img-line gallery-picture__spring-up">
-                    <img width="600" src="img/spring-house-on-the-mountain.jpg" alt="House in the forest">
-                </div>
-                <div class="img-line gallery-picture__spring-down">
-                    <img width="300" src="img/spring-house-near-the-lake.jpg" alt="House in the forest">
-                    <img width="300" src="img/spring-hous-in-the-forest.jpg" alt="House in the forest">
-                </div>
-            </div>
-        </div>
-        <div id="block4" class="block block4">
-            <div id="gallery-picture__autumn" class="gallery-picture__autumn">
-                <div class="img-line gallery-picture__autumn-up">
-                    <img width="600" src="img/autumn-gray-house.jpg" alt="House in the forest">
-                </div>
-                <div class="img-line gallery-picture__autumn-down">
-                    <img width="300" src="img/autumn-house-in-the-forest.jpg" alt="House in the forest">
-                    <img width="300" src="img/autumn-girl-near-the-house.jpg" alt="House in the forest">
-                </div>
-            </div>
-        </div>
-        <div id="block5" class="block block5">
-            <div id="gallery-picture__fishing" class="gallery-picture__fishing">
-                <div class="img-line gallery-picture__fishing-up">
-                    <img width="600" src="img/fishing-fisherman.jpg" alt="House in the forest">
-                </div>
-                <div class="img-line gallery-picture__fishing-down">
-                    <img width="300" src="img/fishing-wooden-boat.jpg" alt="House in the forest">
-                    <img width="300" src="img/fishing-red-boat.jpg" alt="House in the forest">
-                </div>
-            </div>
-        </div>
-        <div id="block6" class="block block6">
-            <div id="gallery-picture__spa" class="gallery-picture__spa">
-                <div class="img-line gallery-picture__spa-up">
-                    <img width="600" src="img/spa-window.jpg" alt="House in the forest">
-                </div>
-                <div class="img-line gallery-picture__spa-down">
-                    <img width="300" src="img/spa-bath.jpg" alt="House in the forest">
-                    <img width="300" src="img/spa-terrace.jpg" alt="House in the forest">
-                </div>
-            </div>
-        </div>
-
-        <script>
-            function toggleBlock(blockId) {
-                var blocks = document.getElementsByClassName('block');
-                for (var i = 0; i < blocks.length; i++) {
-                    if (blocks[i].id === blockId) {
-                        blocks[i].style.display = 'block';
-                    } else {
-                        blocks[i].style.display = 'none';
-                    }
-                }
-            }
-        </script>
-    </div>
-  </section>
+    </section>
