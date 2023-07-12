@@ -4,13 +4,7 @@
     display: block;
     overflow-x: hidden;
 }
-<<<<<<< HEAD
 .rental-policies{
-=======
-
-.rental-policies {
-    padding-top: 80px;
->>>>>>> b88b1f8dbf3cfb06fe54ed737b97ed1189715596
     font-family: var(--description-font-family);
     font-weight: 400;
     line-height: 25px;
@@ -91,16 +85,9 @@
     width: 26px;
     height: 26px;
 }
-<<<<<<< HEAD
 .item__description{
     max-width: 272px;
-=======
-
-.item__description {
-    max-width: 280px;
->>>>>>> b88b1f8dbf3cfb06fe54ed737b97ed1189715596
 }
-
 .description-subtitle-space {
     margin-bottom: 32px;
 }
