@@ -1,14 +1,14 @@
 .things-to-do__title {
-    color: var(--text-color);
-    /*font-family: "Circular Std", serif;*/
+    color: var(--text-color, #333333);
+    font-family: var(--title-font-family);
     font-size: 39px;
     font-weight: 500;
     text-align: center;
 }
 
 .cards__heading {
-    color: var(--text-color);
-    /*font-family: "Circular Std", serif;*/
+    color: var(--text-color, #333333);
+    font-family: 'Circular Std', serif;
     font-size: 23px;
     font-weight: 500;
     text-align: center;
@@ -16,15 +16,15 @@
 
 .cards__subheading {
     box-sizing: border-box;
-    color: var(--title-color);
-    /*font-family: "Circular Std", serif;*/
+    color: var(--title-color, #f98250);
+    font-family: 'Circular Std', serif;
     font-size: 20px;
     font-weight: 500;
     text-align: center;
 }
 
 .cards__description {
-    color: var(--description-color);
+    color: var(--description-color, #848484);
     font-family: var(--description-font-family);
     font-size: 16px;
     font-weight: 400;
@@ -32,7 +32,7 @@
 }
 
 .cards__item {
-    background-color: var(--background-color);
+    background-color: var(--background-color, #ffffff);
     border-color: rgb(40, 37, 32);
     display: block;
 }
