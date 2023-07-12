@@ -1,15 +1,11 @@
-/* index */
 @import url(global.css);
+@import url(header.css); 
 
-/* header */
- @import url(header.css); 
-
-/* main */
 /* @import url(name.css); */
 @import url(call-form.css);
 @import url(index.things-to-do.css);
 @import url(index.adventure.css);
 @import url(index.answer-for-question.css);
 @import url(form.css);
-/*footer */
+
 /* @import url(name.css); */

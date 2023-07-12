@@ -1,15 +1,16 @@
-<section>
-    <div class="img"></div>
-        <h1 class="season-gallery__title">Gallery</h1>
-        <div>
+<section class="gallery-picture_of_places_in_different_seasons">
+    <div id="gallery-header" class="gallery-picture_header">
+        <h1 class="gallery-picture_title">Gallery</h1>
             <ul class="list-seasons-name">
-                <li><a href="#gallery-picture__summer" onclick="toggleBlock('summer')">Summer</a></li>
-                <li><a href="#gallery-picture__winter" onclick="toggleBlock('winter')">Winter</a></li>
-                <li><a href="#gallery-picture__spring" onclick="toggleBlock('spring')">Spring</a></li>
-                <li><a href="#gallery-picture__autumn" onclick="toggleBlock('autumn')">Autumn</a></li>
-                <li><a href="#gallery-picture__fishing" onclick="toggleBlock('fishing')">Fishing</a></li>
-                <li><a href="#gallery-picture__spa" onclick="toggleBlock('spa')">SPA</a></li>
+                <li><a class="list_item" href="#gallery-picture__summer" onclick="toggleBlock('summer')">Summer</a></li>
+                <li><a class="list_item" href="#gallery-picture__winter" onclick="toggleBlock('winter')">Winter</a></li>
+                <li><a class="list_item" href="#gallery-picture__spring" onclick="toggleBlock('spring')">Spring</a></li>
+                <li><a class="list_item" href="#gallery-picture__autumn" onclick="toggleBlock('autumn')">Autumn</a></li>
+                <li><a class="list_item" href="#gallery-picture__fishing" onclick="toggleBlock('fishing')">Fishing</a></li>
+                <li><a class="list_item" href="#gallery-picture__spa" onclick="toggleBlock('spa')">SPA</a></li>
             </ul>
+     </div>
+        <div class="gallery-picture_seasons">
             <div id="summer" class="bloc_summer">
                 <div id="gallery-picture__summer" class="gallery-picture__summer">
                     <img class="picture-summer_house-on-the-mountain" src="img/summer-house-on-the-mountain.jpg" alt="house on the mountain">
@@ -20,8 +21,7 @@
                     <img class="picture-summer_house-with-flowers" src="img/summer-house-with-flowers.jpg" alt="house with flowers">
                 </div>
             </div>
-            
-            <div id="winter" class="block winter">
+            <div id="winter" class="block_winter">
                 <div id="gallery-picture__winter" class="gallery-picture__winter">
                     <img class="picture-winter_mountains" src="img/winter-mountains.jpg" alt="mountains in winter">
                     <img class="picture-winter_skier" src="img/winter-skier.jpg" alt="skier on the mount">
@@ -31,50 +31,49 @@
                     <img class="picture-winter_houses-in-the-mountains" src="img/winter-houses-in-the-mountains.jpg" alt="houses in the mountin in winter">
                 </div>    
             </div>
-            <div id="block3" class="block block3">
+            <div id="spring" class="block_spring">
                 <div id="gallery-picture__spring" class="gallery-picture__spring">
-                    <div class="img-line gallery-picture__spring-up">
-                        <img class="picture-winter_mountains" src="img/spring-house-on-the-mountain.jpg" alt="House in the forest">
-                    </div>
-                    <div class="img-line gallery-picture__spring-down">
-                        <img width="300" src="img/spring-house-near-the-lake.jpg" alt="House in the forest">
-                        <img width="300" src="img/spring-hous-in-the-forest.jpg" alt="House in the forest">
-                    </div>
+                    <img class="picture-spring_house-on-the-mountain" src="img/spring-house-on-the-mountain.jpg" alt="house on the mountain in spring">
+                    <img class="picture-spring_house-near-the-lake" src="img/spring-house-near-the-lake.jpg" alt="house near the lake in spring">
+                    <img class="picture-spring_hous-in-the-forest" src="img/spring-hous-in-the-forest.jpg" alt="house in the forest in spring">
                 </div>
             </div>
-            <div id="block4" class="block block4">
+            <div id="autumn" class="block_autumn">
                 <div id="gallery-picture__autumn" class="gallery-picture__autumn">
-                    <div class="img-line gallery-picture__autumn-up">
-                        <img width="600" src="img/autumn-gray-house.jpg" alt="House in the forest">
-                    </div>
-                    <div class="img-line gallery-picture__autumn-down">
-                        <img width="300" src="img/autumn-house-in-the-forest.jpg" alt="House in the forest">
-                        <img width="300" src="img/autumn-girl-near-the-house.jpg" alt="House in the forest">
-                    </div>
+                    <img class="picture-autumn_gray-house" src="img/autumn-gray-house.jpg" alt="gray house">
+                    <img class="picture-autumn_house-in-the-forest" src="img/autumn-house-in-the-forest.jpg" alt="house in the forest in autumn">
+                    <img class="picture-autumn_girl-near-the-house" src="img/autumn-girl-near-the-house.jpg" alt="girl near the house">
                 </div>
             </div>
-            <div id="block5" class="block block5">
+            <div id="fishing" class="block_fishing">
                 <div id="gallery-picture__fishing" class="gallery-picture__fishing">
-                    <div class="img-line gallery-picture__fishing-up">
-                        <img width="600" src="img/fishing-fisherman.jpg" alt="House in the forest">
-                    </div>
-                    <div class="img-line gallery-picture__fishing-down">
-                        <img width="300" src="img/fishing-wooden-boat.jpg" alt="House in the forest">
-                        <img width="300" src="img/fishing-red-boat.jpg" alt="House in the forest">
-                    </div>
+                    <img class="picture-fishing_fisherman" src="img/fishing-fisherman.jpg" alt="fisherman">
+                    <img class="picture-fishing_wooden-boat" src="img/fishing-wooden-boat.jpg" alt="wooden boat">
+                    <img class="picture-fishing_red-boat" src="img/fishing-red-boat.jpg" alt="red boat">
                 </div>
             </div>
-            <div id="block6" class="block block6">
+            <div id="spa" class="block_spa">
                 <div id="gallery-picture__spa" class="gallery-picture__spa">
-                    <div class="img-line gallery-picture__spa-up">
-                        <img width="600" src="img/spa-window.jpg" alt="House in the forest">
-                    </div>
-                    <div class="img-line gallery-picture__spa-down">
-                        <img width="300" src="img/spa-bath.jpg" alt="House in the forest">
-                        <img width="300" src="img/spa-terrace.jpg" alt="House in the forest">
-                    </div>
+                    <img class="picture-spa_window" src="img/spa-window.jpg" alt="window in the spa room">
+                    <img class="picture-spa_bath" src="img/spa-bath.jpg" alt="bath for spa">
+                    <img class="picture-spa_terrace" src="img/spa-terrace.jpg" alt="terrace near the spa">
                 </div>
             </div>
         </div>
-    </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

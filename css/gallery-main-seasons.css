@@ -1,51 +1,85 @@
-.season-gallery__title { 
-    text-align: center;
-    padding-top: 83px;
-    font-size: 34px;
-    font-weight: 500;
-  } 
-  ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+.gallery-picture_header{
+  padding: 5px;
+  
+}
+.gallery-picture_title { 
+  text-align: center;
+  padding-top: 83px;
+  font-size: 2.5rem;
+  font-weight: 500;
+} 
+.list-seasons-name{
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  align-items: center;
+}
+.list-seasons-name .list_item{
+  color:var(--description-color);
+  text-decoration: none;
+}
+.list-seasons-name .list_item:hover{
+  color: var(--text-color);
+  text-decoration: underline;
+}
+@media (min-width: 500px) {
+  .list-seasons-name{
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
   }
-  li {
-    margin: 0 10px;
-  }
-  .img-line,
-  .picture-summer_house-on-the-mountain,
-  .picture-summer_horse,
-  .picture-summer_lake,
-  .picture-summer_house-interior,
-  .picture-summer_house-in-the-forest,
-  .picture-summer_house-with-flowers,
-  .picture-winter_mountains,
-  .picture-winter_skier,
-  .picture-winter_girl-with-coffee,
-  .picture-winter_house-by-the-lake,
-  .picture-winter_horse,
-  .picture-winter_houses-in-the-mountains,
-  .gallery-picture__spa { 
-    display: block;
-    margin: 0 auto;
-    max-width: 500px;
-    min-height: 250px;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .img{
-
-    background-image: url(//res2.weblium.site/res/5ce40621b84b1a002410eb9e/5d01152af7f5810024cd30c3_optimized_1920?nowebp&quot);
-
-    background-size: no-repeat;
-
-    background-position: center;
-
-    background-size: contain;
-
-    height: 400px;
-
-    width: 400px;
-
+}
+.gallery-picture__summer,
+.gallery-picture__winter,
+.gallery-picture__spring,
+.gallery-picture__autumn,
+.gallery-picture__fishing,
+.gallery-picture__spa{
+  background-image: url(../img/gallery_seasons_background.jpg);
+  min-height: 1000px;
+  background-size: cover;
+  background-position: center;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+li {
+  margin: 0 10px;
+}
+.img-line,
+.picture-summer_house-on-the-mountain,
+.picture-summer_horse,
+.picture-summer_lake,
+.picture-summer_house-interior,
+.picture-summer_house-in-the-forest,
+.picture-summer_house-with-flowers,
+.picture-winter_mountains,
+.picture-winter_skier,
+.picture-winter_girl-with-coffee,
+.picture-winter_house-by-the-lake,
+.picture-winter_horse,
+.picture-winter_houses-in-the-mountains,
+.picture-spring_house-on-the-mountain,
+.picture-spring_house-near-the-lake,
+.picture-spring_hous-in-the-forest,
+.picture-autumn_gray-house,
+.picture-autumn_house-in-the-forest,
+.picture-autumn_girl-near-the-house,
+.picture-fishing_fisherman,
+.picture-fishing_wooden-boat,
+.picture-fishing_red-boat,
+.picture-spa_window,
+.picture-spa_bath,
+.picture-spa_terrace{
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  min-height: 250px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
