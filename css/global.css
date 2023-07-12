@@ -1,13 +1,13 @@
- /* global*/ 
- @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
  @font-face {
-    font-family: 'Circular Std', serif;
-    src: url('fonts/CircularStd-Black.woff2') format('woff2'),
-        url('fonts/CircularStd-Black.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+     font-family: 'Circular Std', serif;
+     src: url('fonts/CircularStd-Black.woff2') format('woff2'),
+         url('fonts/CircularStd-Black.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ }
+
  * {
      box-sizing: border-box;
      margin: 0;
@@ -26,7 +26,7 @@
      --title-font-family: 'Circular Std', serif;
      --description-font-family: 'Roboto', sans-serif;
      font-family: 'Circular Std', serif;
-     scroll-behavior: smooth;     
+     scroll-behavior: smooth;
  }
 
  img {

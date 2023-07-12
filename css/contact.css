@@ -1,12 +1,3 @@
-/* contact */
 @import url(global.css);
-
-/* header */
- @import url(header.css); 
-
-/* main */
-/* @import url(name.css); */
+@import url(header.css);
 @import url(contact-main-contact-us.css);
-
-/*footer */
-/* @import url(name.css); */

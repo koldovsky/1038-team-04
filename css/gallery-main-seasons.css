@@ -1,55 +1,63 @@
-.gallery-picture_header{
+.gallery-picture_header {
   padding: 5px;
-  
 }
-.gallery-picture_title { 
+
+.gallery-picture_title {
   text-align: center;
   padding-top: 83px;
   font-size: 2.5rem;
   font-weight: 500;
-} 
-.list-seasons-name{
+}
+
+.list-seasons-name {
   display: flex;
   flex-direction: column;
   padding: 15px 20px;
   font-size: 1.2rem;
   align-items: center;
 }
-.list-seasons-name .list_item{
-  color:var(--description-color);
+
+.list-seasons-name .list_item {
+  color: var(--description-color);
   text-decoration: none;
 }
-.list-seasons-name .list_item:hover{
+
+.list-seasons-name .list_item:hover {
   color: var(--text-color);
   text-decoration: underline;
 }
+
 @media (min-width: 500px) {
-  .list-seasons-name{
+  .list-seasons-name {
     flex: 1;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
   }
 }
+
 .gallery-picture__summer,
 .gallery-picture__winter,
 .gallery-picture__spring,
 .gallery-picture__autumn,
 .gallery-picture__fishing,
-.gallery-picture__spa{
+.gallery-picture__spa {
   background-image: url(../img/gallery_seasons_background.jpg);
   min-height: 1000px;
   background-size: cover;
   background-position: center;
 }
+
 ul {
   display: flex;
   justify-content: center;
   list-style-type: none;
 }
+
 li {
   margin: 0 10px;
 }
+
 .img-line,
 .picture-summer_house-on-the-mountain,
 .picture-summer_horse,
@@ -74,7 +82,7 @@ li {
 .picture-fishing_red-boat,
 .picture-spa_window,
 .picture-spa_bath,
-.picture-spa_terrace{
+.picture-spa_terrace {
   display: block;
   margin: 0 auto;
   max-width: 500px;

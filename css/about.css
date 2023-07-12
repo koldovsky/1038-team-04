@@ -1,15 +1,3 @@
-/* about */
 @import url(global.css);
-
-/* header */
- @import url(header.css); 
-
-/* header */
-/* @import url(name.css); */
-
-/* main */
-/* @import url(name.css); */
+@import url(header.css); 
 @import url(about.season-activities.css);
-
-/*footer */
-/* @import url(name.css); */
