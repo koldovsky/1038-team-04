@@ -2,8 +2,8 @@
 
  @font-face {
      font-family: 'Circular Std', serif;
-     src: url('fonts/CircularStd-Black.woff2') format('woff2'),
-         url('fonts/CircularStd-Black.woff') format('woff');
+     src: url('../fonts/CircularStd-Black.woff2') format('woff2'),
+         url('../fonts/CircularStd-Black.woff') format('woff');
      font-weight: normal;
      font-style: normal;
  }
@@ -22,7 +22,6 @@
      --fields-border-color: #d0d0d0;
      --description-color: #848484;
      --fields-background-color: #f5f5f5;
-
      --title-font-family: 'Circular Std', serif;
      --description-font-family: 'Roboto', sans-serif;
      font-family: 'Circular Std', serif;
