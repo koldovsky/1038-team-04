@@ -1,3 +1,9 @@
+.container{
+    margin: auto;
+    max-width: 352px;
+    display: block;
+    overflow-x: hidden;
+}
 .season-activities {
     font-family: var(--description-font-family);
     flex: 1;
@@ -64,6 +70,12 @@
     color: rgb(249, 130, 80);
 }
 @media (min-width:401px){
+    .container{
+        margin: auto;
+        max-width: 740px;
+        display: block;
+        overflow-x: hidden;
+    }
     .season-activities__title {
         padding-top: 83px;
         font-size: 39px;
@@ -97,6 +109,12 @@
     }   
 }
 @media (min-width:801px){
+    .container{
+        margin: auto;
+        max-width: 1170px;
+        display: block;
+        overflow-x: hidden;
+    }
     .season-activities__title {
         font-size: 44px;
     }
