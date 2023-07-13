@@ -23,13 +23,14 @@
     justify-content: center;
     list-style: none;
     padding: 10px 40px 30px 40px;
-    
 }
+
 .header__menu-link {
     color: var(--text-color);
     font-weight: 700;
     margin: 5px 22px;
 }
+
 .header__menu-link:hover {
     color: var(--title-color);
 }
