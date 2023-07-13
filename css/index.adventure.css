@@ -1,6 +1,8 @@
 .adventure{
     /*background-image: url(img/background-img-adventure.jpeg);*/
     padding: 80px, 0;
+    display: flex;
+    flex-wrap: wrap;
 } 
 
 .adventure__title{
@@ -27,6 +29,17 @@
     text-align: center;
     padding: 24px;
 }
+.adventure__horse-ranch,
+.adventure__tuolumne-meadows-lodge,
+.adventure__sierra-sunrise,
+.adventure__donya-maries-cottage,
+.adventure__sierra-meadow,
+.adventure__yosemites-river-house {
+  width: 33.33%;
+  box-sizing: border-box;
+  padding: 10px; 
+}
+
 /*
 .adventure__horse-ranch{
     height: 252.922px;
