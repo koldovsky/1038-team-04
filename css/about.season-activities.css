@@ -1,6 +1,6 @@
 .container{
     margin: auto;
-    max-width: 352px;
+    max-width: 720px;
     display: block;
     overflow-x: hidden;
 }
@@ -9,6 +9,7 @@
     font-weight: 400;
     line-height: 25px;
     padding: 0 24px;
+    background-image: url(../img/about-background-image-gray.jpg);
     /* margin: 0 24px; */
     /* flex: 1;
     display: flex;
@@ -77,13 +78,13 @@
 .list__item-icon {
     color: rgb(249, 130, 80);
 }
-@media (min-width:401px){
+@media (min-width:768px){
     .season-activities {
         padding: 0 32px;
     }
     .container{
         margin: auto;
-        max-width: 740px;
+        max-width: 927px;
         display: block;
         overflow-x: hidden;
     }
@@ -119,7 +120,7 @@
         padding-top: 0;
     }   
 }
-@media (min-width:801px){
+@media (min-width:991px){
     .season-activities {
         padding: 0 15px;
     }

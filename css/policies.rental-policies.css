@@ -9,6 +9,7 @@
     font-weight: 400;
     line-height: 25px;
     padding: 80px 5px 0;
+    background-image: url(../img/about-background-image-gray.jpg);
 }
 
 .rental-policies__title {
