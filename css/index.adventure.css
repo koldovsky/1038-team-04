@@ -1,6 +1,6 @@
 .adventure{
     /*background-image: url(img/background-img-adventure.jpeg);*/
-    padding: 80px 0px;
+    padding: 80px, 0;
 } 
 
 .adventure__title{
@@ -8,10 +8,48 @@
     font-size: 34px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 25px;
 }
 .adventure__subtitle{
     font-family: var(--description-font-family);
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 400;
     text-align: center;
+    display: inline;
+    box-sizing: border-box;
+    line-height: 30.4px;
+    color: var(--description-color);
+    margin-top: 25px;
 }
+
+.adventure__title-and-subtitle{
+    display: block;
+    text-align: center;
+    padding: 24px;
+}
+/*
+.adventure__horse-ranch{
+    height: 252.922px;
+    width: 392.5px;
+}
+.adventure__tuolumne-meadows-lodge{
+    height: 252.922px;
+    width: 392.5px;
+}
+.adventure__sierra-sunrise{
+    height: 252.922px;
+    width: 392.5px;
+}
+.adventure__donya-maries-cottage{
+    height: 252.922px;
+    width: 392.5px;
+}
+.adventure__sierra-meadow{
+    height: 252.922px;
+    width: 392.5px;
+}
+.adventure__yosemites-river-house{
+    height: 252.922px;
+    width: 392.5px;
+}
+*/
