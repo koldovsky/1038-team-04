@@ -2,8 +2,7 @@
 
  @font-face {
      font-family: 'Circular Std', serif;
-     src: url('../fonts/CircularStd-Black.woff2') format('woff2'),
-         url('../fonts/CircularStd-Black.woff') format('woff');
+     src: url('../fonts/CircularStd-Book.woff') format('woff');
      font-weight: normal;
      font-style: normal;
  }
