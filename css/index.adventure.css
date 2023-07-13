@@ -1,0 +1,17 @@
+.adventure{
+    /*background-image: url(img/background-img-adventure.jpeg);*/
+    padding: 80px 0px;
+} 
+
+.adventure__title{
+    font-family: var(--title-font-family);
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+}
+.adventure__subtitle{
+    font-family: var(--description-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
