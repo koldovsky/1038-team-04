@@ -45,14 +45,16 @@
     box-sizing: border-box;
     padding: 10px;
 }
-img{
-    height: 192px;
-    width: 299px;
+
+img {
+    height: 199px;
+    width: 309px;
     border-radius: 5%;
     margin: 0 auto;
 }
-h3{
+
+h3 {
     text-align: center;
     margin: 0 auto;
-    width: 299px;
+    width: 309px;
 }
