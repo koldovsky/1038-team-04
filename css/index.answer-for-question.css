@@ -1,12 +1,12 @@
-
-.answer-for-question__title{
+.answer-for-question__title {
     /*color: white;*/
     font-family: var(--title-font-family);
     font-size: 60px;
     font-weight: 700;
     text-align: center;
 }
-.answer-for-question__buttons{
+
+.answer-for-question__buttons {
     font-family: var(--description-font-family);
     font-size: 15.4px;
     font-weight: 600;

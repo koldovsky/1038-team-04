@@ -1,18 +1,20 @@
-.adventure{
-    /*background-image: url(img/background-img-adventure.jpeg);*/
-    padding: 80px, 0;
-    display: flex;
-    flex-wrap: wrap;
-} 
+.adventure {
+    background-image: url(/img/background-img-adventure.jpeg);
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+}
 
-.adventure__title{
+.adventure__title {
     font-family: var(--title-font-family);
     font-size: 34px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 25px;
 }
-.adventure__subtitle{
+
+.adventure__subtitle {
     font-family: var(--description-font-family);
     font-size: 19px;
     font-weight: 400;
@@ -24,45 +26,35 @@
     margin-top: 25px;
 }
 
-.adventure__title-and-subtitle{
+.adventure__title-and-subtitle {
     display: block;
     text-align: center;
-    padding: 24px;
-}
-.adventure__horse-ranch,
-.adventure__tuolumne-meadows-lodge,
-.adventure__sierra-sunrise,
-.adventure__donya-maries-cottage,
-.adventure__sierra-meadow,
-.adventure__yosemites-river-house {
-  width: 33.33%;
-  box-sizing: border-box;
-  padding: 10px; 
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
-/*
-.adventure__horse-ranch{
-    height: 252.922px;
-    width: 392.5px;
+.adventure__cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 40px;
 }
-.adventure__tuolumne-meadows-lodge{
-    height: 252.922px;
-    width: 392.5px;
+
+.adventure__cards-container>div {
+    flex-basis: 33.33%;
+    box-sizing: border-box;
+    padding: 10px;
 }
-.adventure__sierra-sunrise{
-    height: 252.922px;
-    width: 392.5px;
+
+img {
+    height: 199px;
+    width: 309px;
+    border-radius: 5%;
+    margin: 0 auto;
 }
-.adventure__donya-maries-cottage{
-    height: 252.922px;
-    width: 392.5px;
+
+h3 {
+    text-align: center;
+    margin: 0 auto;
+    width: 309px;
 }
-.adventure__sierra-meadow{
-    height: 252.922px;
-    width: 392.5px;
-}
-.adventure__yosemites-river-house{
-    height: 252.922px;
-    width: 392.5px;
-}
-*/
