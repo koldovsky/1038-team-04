@@ -10,12 +10,6 @@
     line-height: 25px;
     padding: 0 24px;
     background-image: url(../img/about-background-image-grey.jpg);
-    /* margin: 0 24px; */
-    /* flex: 1;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center; */
 }
 .cards-up__image-winter, .cards-low__image-summer{
     width: 100%;
@@ -31,11 +25,7 @@
     flex-direction: column;
     align-items: flex-start;
 }
-.cards-up__winter-vacation{
-    /* max-width: 50%; */
-}
 .cards-up__image-winter-container {
-    /* max-width: 50%; */
     min-height: 181px;
     border-radius: 10px;
     margin-top: 45px;
@@ -90,55 +80,6 @@
     .season-activities {
         padding: 0 32px;
     }
-    /* .container{
-        margin: auto;
-        max-width: 927px;
-        display: block;
-        overflow-x: hidden;
-    }
-    .season-activities__title {
-        padding-top: 83px;
-        font-size: 39px;
-    }
-    .season-activities__cards {
-        margin-top: 49px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        gap: 30px;
-    }
-    .cards-up__image-winter-container {
-        max-width: 425px;
-        max-height: 235px;
-        border-radius: 10px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .cards-low__image-summer-container {
-        max-width: 425px;
-        max-height: 316px;
-        border-radius: 10px;
-        margin-top: 129px;
-        margin-bottom: 0px;
-    }
-    .cards-up__winter-vacation{
-        max-width: 465px;
-    }
-    .cards-low__summer-vacation{
-        max-width: 465px;
-    }
-    .cards-low{
-        margin-top: 80px;
-        padding-bottom: 84px;
-    }
-    .cards-low__summer-vacation-title{
-        padding-top: 0;
-    }   
-} */
-/* @media (min-width:991px){
-    .season-activities {
-        padding: 0 15px;
-    } */
     .container{
         margin: auto;
         max-width: 1170px;
@@ -163,8 +104,6 @@
         margin-top: 50px;
     }
     .cards-up__image-winter-container {
-        /* max-width: 570px;
-        max-height: 380px; */
         max-width: 50%;
         border-radius: 10px;
         margin-top: 0px;
@@ -172,35 +111,27 @@
         align-self: flex-start;
     }
     .cards-low__image-summer-container {
-        /* max-width: 570px;
-        max-height: 511px; */
         max-width: 50%;
         border-radius: 10px;
         margin-top: 0px;
         margin-bottom: 0px;
     }
     .cards-low__summer-vacation, .cards-up__winter-vacation{
-        /* min-width: 380px;
-        max-width: 570px; */
         max-width: 50%;
     }
     .cards-up__winter-vacation-title {
         font-size: 25px;
         font-weight: 500;
         margin-bottom: 13px;
-        /* margin-top: 29px; */
         max-width: 570px;
     }
     .cards-low__summer-vacation-title {
         font-size: 25px;
         font-weight: 500;
-        padding-top: px;
-        /* max-width: 570px; */
         margin-bottom: 13px;
     }
     .cards-up__winter-vacation-subtitle, .cards-low__summer-vacation-subtitle {
     font-weight: 400;
     margin-bottom: 27px;
-    /* max-width: 573px; */
 }
 }
