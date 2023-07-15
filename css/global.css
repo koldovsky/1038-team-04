@@ -26,6 +26,10 @@
      font-family: 'Circular Std', serif;
      scroll-behavior: smooth;
  }
+ .body {
+    max-width: 1024px;
+    margin: auto;
+ }
 
  img {
      display: block;
