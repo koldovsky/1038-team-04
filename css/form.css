@@ -37,6 +37,8 @@
     margin-top: 50px;
     min-height: 50px;
     border-radius: 40px;
+    color: var(--background-color);
+    font-weight: bolder;
 }
 .reservation-submit:hover{
     background-color: var(--icons-color);
