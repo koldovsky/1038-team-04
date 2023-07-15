@@ -1,9 +1,9 @@
-.things-to-do__inner{
+.things-to-do__inner {
     background-image: url(../img/background-things-to-do.jpeg);
     background-size: cover;
     background-position: center;
     width: 100%;
-    padding: 32px;    
+    padding: 32px;
 }
 
 .things-to-do__title {
@@ -14,9 +14,10 @@
     text-align: center;
     margin: 20px;
 }
-.cards__item{
+
+.cards__item {
     border-radius: 10px;
-    padding: 20px;   
+    padding: 20px;
     margin: 20px;
     background-color: var(--background-color);
     border-color: var(--fields-border-color);
@@ -26,15 +27,16 @@
 }
 
 @media (min-width: 768px) {
-    .things-to-do__cards{
-        display: grid; 
-        grid-template-columns: 1fr 1fr;  
-        gap: 20px;    
+    .things-to-do__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
     }
 }
+
 @media (min-width: 992px) {
-    .things-to-do__cards{        
-        grid-template-columns: 1fr 1fr 1fr;           
+    .things-to-do__cards {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
@@ -48,7 +50,6 @@
 }
 
 .cards__subheading {
-    box-sizing: border-box;
     color: var(--title-color);
     font-family: 'Circular Std', serif;
     font-size: 20px;
@@ -66,12 +67,11 @@
     margin: 10px;
 }
 
-.cards__image {     
+.cards__image {
     border-radius: 10px;
-    border-color: var(--fields-border-color);     
+    border-color: var(--fields-border-color);
     min-width: 232px;
     min-height: 153.812px;
     display: flex;
-    justify-content: center;    
-    object-fit: cover;
+    justify-content: center;
 }
