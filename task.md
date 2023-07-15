@@ -8,7 +8,7 @@ https://koldovsky.github.io/1038-team-04/
 -index.html тут теги h1 і h2 => виконання 
 header(Пролубщикова).
 main(Пролубщикова.Папазов.Савчинко.Півнюк.Папазов.Підгородна.Станішевський.Станішевський.Стасюк)
-footer (Савченко)
+footer (Савченко) 80%
 
 -about.html  (about-location) ,tag h2 =>  'About Yosemite'  2 блоки ?!!!!!!!! виконання 
 header(Пролубщикова).
