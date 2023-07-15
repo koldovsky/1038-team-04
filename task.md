@@ -5,32 +5,32 @@
 https://koldovsky.github.io/1038-team-04/
 
 -img/
--index.html тут теги h1 і h2 => 100%
+-index.html тут теги h1 і h2 => виконання 
 header(Пролубщикова).
 main(Пролубщикова.Папазов.Савчинко.Півнюк.Папазов.Підгородна.Станішевський.Станішевський.Стасюк)
 footer (Савченко)
 
--about.html  (about-location) ,tag h2 =>  'About Yosemite'  2 блоки ?!!!!!!!!
+-about.html  (about-location) ,tag h2 =>  'About Yosemite'  2 блоки ?!!!!!!!! виконання 
 header(Пролубщикова).
 main(Рябцев.Півнюк.Світто) 
 footer (Савченко)
 
--gallery.html (photo-gallery), tag => h2  'Gallery' 100%
+-gallery.html (photo-gallery), tag => h2  'Gallery'  виконання 70%
 header(Пролубщикова).
-main(Савінський .Миколишин) 
+main(Савінський .Миколишин)  70%  / 95 % виконання
 footer (Савченко)
 
--offer.html (rent-offer-accommodations), tag => h2  'Cabin Rentals' 50%  1 блок  !!!!!!!!!!!!!!!!!!!!!!
+-offer.html (rent-offer-accommodations), tag => h2  'Cabin Rentals'  виконання наповнення 100% розмітка 50%
 header(Пролубщикова).
-main(Стасюк . ?) 
+main(Стасюк) 
 footer (Савченко)
 
--contact.html  (contact) ,tag => h2 'How to Get There'  100%
+-contact.html  (contact) ,tag => h2 'How to Get There'  виконання по блоках 50%
 header(Пролубщикова).
-main(Проходченко.Миколишин) 
+main(Проходченко.Миколишин) виконання  0%  99%
 footer (Савченко)
 
--policies.html (rental-policies), tag => h2 ' Rental policies' 100%
+-policies.html (rental-policies), tag => h2 ' Rental policies' 99%
 header(Пролубщикова).
-main(Світто)
+main(Світто)  виконання   99%
 footer (Савченко)
