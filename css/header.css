@@ -73,3 +73,37 @@
     color: var(--title-color);
     line-height: 25.6px;
 }
+
+@media (min-width: 990px) {
+    header {
+        padding: 30px 40px;
+    }
+    .header__burger {
+        display: none;
+    }
+    .header__logo {
+        display: block;
+        margin: 0 auto;
+    }
+    .header__menu {
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+    }
+    .header__menu-link:hover {
+        color: var(--title-color);
+
+    }
+    .header__info {
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .header__location {
+       margin-top: -300px;
+       
+    }
+    .header__contact {
+        margin-top: -300px;
+    }
+}
