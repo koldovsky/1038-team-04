@@ -1,8 +1,8 @@
 .adventure {
     background-image: url(/img/background-img-adventure.jpeg);
     padding-top: 80px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
     padding-bottom: 80px;
 }
 
@@ -43,18 +43,18 @@
 .adventure__cards-container>div {
     flex-basis: 33.33%;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 20px;
 }
 
 img {
-    height: 199px;
-    width: 309px;
+    min-height: 199px;
+    min-width: 309px;
     border-radius: 5%;
     margin: 0 auto;
 }
 
 h3 {
     text-align: center;
-    margin: 0 auto;
+    margin-top: 20px;
     width: 309px;
 }
