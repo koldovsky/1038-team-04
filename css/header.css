@@ -1,10 +1,22 @@
 @import url(global.css);
 
+.header {
+    min-width: 320px;
+    width: 100%;
+}
+
+.header__container {
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+
 .header__top {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .header__logo img {
@@ -33,7 +45,7 @@
 
 .header__menu {
     list-style: none;
-    margin: -10px -5px;
+    /*margin: -10px -5px;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -54,7 +66,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
-    
+
 }
 
 .header__location {
@@ -78,31 +90,38 @@
     header {
         padding: 30px 40px;
     }
+
     .header__burger {
         display: none;
     }
+
     .header__logo {
         display: block;
         margin: 0 auto;
     }
+
     .header__menu {
         flex-direction: row;
         justify-content: center;
         gap: 40px;
     }
+
     .header__menu-link:hover {
         color: var(--title-color);
 
     }
+
     .header__info {
         flex-direction: row;
         justify-content: space-between;
-        
+
     }
+
     .header__location {
-       margin-top: -300px;
-       
+        margin-top: -300px;
+
     }
+
     .header__contact {
         margin-top: -300px;
     }
