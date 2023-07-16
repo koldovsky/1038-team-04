@@ -104,7 +104,7 @@
     }
 
     .footer__links-list {
-        align-items: center;
+        align-items: flex-start;
         flex-direction: row;
     }
 
