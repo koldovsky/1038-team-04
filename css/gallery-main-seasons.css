@@ -1,5 +1,6 @@
 .gallery-picture_of_places_in_different_seasons {
-  background-image: url("../img/gallery_seasons_background.jpg");
+  background: url("../img/gallery_seasons_background.jpg");
+  background-size: cover;
 }
 .gallery-picture_title { 
   text-align: center;
@@ -23,7 +24,6 @@
   color: var(--text-color);
   text-decoration: underline;
 }
-
 ul {
   display: flex;
   justify-content: center;
@@ -32,26 +32,19 @@ ul {
 li {
   margin: 0 10px;
 }
+.list-seasons-name{
+  flex: 0;
+  flex-direction: row;
+  align-items: center;
+  
+}
 
 @media (min-width:500px) {
-  .list-seasons-name{
-    flex: 0;
-    flex-direction: row;
-    align-items: center;
-    
-  }
-  *,
-  *::after,
-  *::before {
-    margin: 8px;
-    padding: 0;
-    box-sizing:  border-box;
-  }
+  
   .gallery-picture_seasons {
     width: 60%;
     margin: 2rem auto; 
   }
-  
   .block_summer,
   .block_winter {
     display: grid;
@@ -148,4 +141,3 @@ li {
   grid-row-end: 7;
 }
 }
-
