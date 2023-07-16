@@ -2,7 +2,7 @@
     color: var(--text-color);
     font-family: var(--description-font-family);
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     margin: 25px;
     white-space: nowrap;
@@ -87,10 +87,6 @@
     padding: 5px;
 }
 
-.footer__link-item {
-    align-items: flex-start;
-}
-
 @media (min-width: 768px) {
     .footer__main {
         display: flex;
@@ -138,6 +134,10 @@
     .footer__helping-div {
         display: flex;
         flex: 3;
+    }
+
+    .footer__link {
+        justify-content: flex-start;
     }
 
 }
