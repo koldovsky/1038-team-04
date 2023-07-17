@@ -63,6 +63,17 @@
     text-transform: uppercase;
 }
 
-/*.call-order__btn:hover {
-    background-color: var(--icons-color);
-}*/
+@media (min-width: 768px) {
+    .call-order {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .call-order__wrapper {
+        width: 36%;
+    }
+
+    .call-order__btn:hover {
+        background-color: var(--icons-color);
+    }
+}
