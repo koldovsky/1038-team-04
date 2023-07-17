@@ -1,3 +1,6 @@
+*{
+    outline: 1px solid red;
+}
 .cabin-ofers-title{
     display: flex;
     justify-content: center;
@@ -16,6 +19,7 @@ h3{
 }
 .ofer-content{
     margin: 50px 0px 50px 30px;
+    padding: 30px;
 }
 .cabin-ofers-reserve-cabin-button {
     background-color: var(--title-color);
@@ -38,6 +42,12 @@ h3{
 }
 .cabin-ofer{
     margin: 50px;
+}
+.house-ofer-rooms{
+    padding: 10px;
+}
+.house-ofer-comfort{
+    padding: 10px;
 }
 @media (min-width:767px){
     .cabin-ofer{
