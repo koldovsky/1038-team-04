@@ -88,6 +88,7 @@
 }
 
 @media (min-width: 768px) {
+
     .footer__main {
         display: flex;
     }
@@ -95,6 +96,7 @@
     .footer__logo {
         justify-content: center;
         flex: 1;
+        width: 113px;
     }
 
     .footer__links {
