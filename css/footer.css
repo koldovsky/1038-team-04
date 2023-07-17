@@ -96,6 +96,9 @@
     .footer__logo {
         justify-content: center;
         flex: 1;
+    }
+
+    .footer__logo img {
         width: 113px;
     }
 
