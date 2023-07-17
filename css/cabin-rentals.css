@@ -11,7 +11,7 @@
 }
 
 .cabin-rentals__title {
-    color: var(--background-color);
+    color: var(--description-alternative-color);
     font-family: var(--title-font-family);
     font-size: 2.75rem;
     font-weight: bold;
@@ -20,7 +20,7 @@
 }
 
 .cabin-rentals__all-link-button {
-    color: var(--background-color);
+    color: var(--description-alternative-color);
     border: 1px solid var(--background-color);
     font-size: 0.75rem;
     font-weight: 600;
@@ -79,7 +79,7 @@
     margin-top: 35px;
     font-size: 2.7rem;
     font-weight: 500;
-    color: var(--background-color);
+    color: var(--description-alternative-color);
     font-family: var(--title-font-family);
 }
 
@@ -87,20 +87,20 @@
     font-size: 1.5625rem;
     font-weight: 500;
     margin-bottom: 10px;
-    color: var(--background-color);
+    color: var(--description-alternative-color);
     font-family: var(--title-font-family);
 }
 
 .cabin-rentals__item-details {
     font-size: 1rem;
     font-weight: 400;
-    color: var(--rentals-description-color);
+    color: var(--description-alternative-color);
     font-family: var(--description-font-family);
 }
 
 .cabin-rentals__item-link {
     background-color: var(--title-color);
-    color: var(--background-color);
+    color: var(--description-alternative-color);
     font-family: var(--description-font-family);
     font-size: 0.75rem;
     font-weight: 600;
@@ -141,6 +141,6 @@
 
 .cabin-rentals__all-link-button:hover,
 .cabin-rentals__item-link:hover {
-    background-color: var(--background-color);
+    background-color: var(--description-alternative-color);
     color: var(--text-color);
 }
