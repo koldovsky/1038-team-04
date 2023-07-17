@@ -15,7 +15,7 @@ h3{
      font-size: xx-large;
 }
 .ofer-content{
-    margin: 50px 0px 50px 10px;
+    margin: 50px 0px 50px 30px;
 }
 .cabin-ofers-reserve-cabin-button {
     background-color: var(--title-color);
@@ -31,4 +31,17 @@ h3{
 }
 .cabin-ofers-reserve-cabin-button:hover{
     background-color: var(--icons-color);
+}
+.cabin-ofers-image{
+    border-radius: 10px;
+    max-width: 500px;
+}
+.cabin-ofer{
+    margin: 50px;
+}
+@media (min-width:767px){
+    .cabin-ofer{
+        display: flex;
+        flex-direction: row;
+    }
 }
