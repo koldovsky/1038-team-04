@@ -21,7 +21,7 @@ h3{
 .cabin-ofers-reserve-cabin-button {
     background-color: var(--title-color);
     margin-top: 50px;
-    height: 40px;
+    min-height: 40px;
     border-radius: 40px;
     color: var(--background-color);
     font-weight: bolder;
@@ -35,7 +35,7 @@ h3{
 }
 .cabin-ofers-image{
     border-radius: 10px;
-    max-width: 500px;
+    max-width: 600px;
 }
 .cabin-ofer{
     margin: 50px;
@@ -51,12 +51,9 @@ h3{
         display: flex;
         flex-direction: row;
     }
-    .cabin-ofers-reserve-cabin-button{
-        height: 50px;
+    .cabin-ofers-image{
+        max-width: 500px;
+        max-height: 300px;
     }
 }
-@media (min-width:781px) {
-    .cabin-ofers-reserve-cabin-button{
-        height: 40px;
-    }
-}
+
