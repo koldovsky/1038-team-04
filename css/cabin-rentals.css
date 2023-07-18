@@ -2,9 +2,12 @@
     background-image: url(../img/gallery_carousel_background.jpeg);
     background-size: cover;
     background-position: center;
-    font-weight: 700;
+    
+}
+
+.cabin-rentals__container{
     height: 100%;
-    padding: 32px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,7 +50,7 @@
     flex-direction: column;
     border-radius: 10px;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     height: 419px;
 }
 
@@ -124,7 +127,7 @@
     .cabin-rentals__list {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 20px;
+        gap: 30px;
     }
 
     .cabin-rentals__list-left {
