@@ -46,6 +46,9 @@ h3{
 .house-ofer-comfort{
     padding: 10px;
 }
+.house-ofer-rooms-li{
+    list-style-image: url('img/bullet-icon.svg');
+}
 @media (min-width:767px){
     .cabin-ofer{
         display: flex;
