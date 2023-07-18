@@ -1,5 +1,3 @@
-@import url(global.css);
-
 .header {
     min-width: 320px;
     width: 100%;
@@ -8,7 +6,6 @@
 .header__container {
     margin-left: 24px;
     margin-right: 24px;
-
 }
 
 .header__top {
@@ -45,7 +42,6 @@
 
 .header__menu {
     list-style: none;
-    /*margin: -10px -5px;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -66,7 +62,6 @@
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
-
 }
 
 .header__location {
@@ -108,18 +103,15 @@
 
     .header__menu-link:hover {
         color: var(--title-color);
-
     }
 
     .header__info {
         flex-direction: row;
         justify-content: space-between;
-
     }
 
     .header__location {
         margin-top: -300px;
-
     }
 
     .header__contact {
