@@ -73,5 +73,6 @@
     min-width: 232px;
     min-height: 153.812px;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
