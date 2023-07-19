@@ -1,3 +1,22 @@
+.container{
+  margin: auto;
+  max-width: 720px;
+  display: block;
+  overflow-x: hidden;
+}
+.gallery_img,
+.block_summer,
+.block_winter,
+.block_spring,
+.block_autumn,
+.block_fishing,
+.block_spa {
+  min-height: 100px;
+  border-radius: 10px;
+  margin-top: 35px;
+  margin-bottom: 54px;
+}
+
 .gallery-picture_of_places_in_different_seasons {
   background: url("../img/gallery_seasons_background.jpg");
   background-size: cover;
@@ -32,15 +51,20 @@ ul {
 li {
   margin: 0 10px;
 }
+
+
+@media (min-width:500px) {
+  .container{
+    margin: auto;
+    max-width: 1300px;
+    display: block;    
+    overflow-x: hidden;
+}
 .list-seasons-name{
   flex: 0;
   flex-direction: row;
   align-items: center;
-  
 }
-
-@media (min-width:500px) {
-  
   .gallery-picture_seasons {
     width: 60%;
     margin: 2rem auto; 
@@ -52,7 +76,6 @@ li {
     grid-template-rows:  repeat(12, 5vw) auto auto;
     margin: 2rem auto; 
     grid-gap: 1.5rem;
-    
   }
   .block_spring,
   .block_autumn,
