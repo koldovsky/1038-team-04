@@ -64,3 +64,8 @@
     margin-bottom: 30px;
     font-family: --description-font-family;
 }
+@media (max-width:412px) {
+    .reservation-input, .reservation-select, .reservation-submit{
+        min-width: 270px;
+    }
+}
