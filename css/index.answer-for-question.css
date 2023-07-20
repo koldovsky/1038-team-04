@@ -1,22 +1,21 @@
-.answer-for-question{
+.answer-for-question {
     background-image: url(../img/answer-for-question-img.jpeg);
     background-size: cover;
     min-height: 527px;
 }
 
-.answer-for-question__title-and-buttons{
+.answer-for-question__title-and-buttons {
     text-align: center;
     padding: 100px 0 100px 0;
-   
-
 }
+
 
 .answer-for-question__title {
     font-family: var(--title-font-family);
     color: #FFFFFF;
     font-size: 3.75rem;
     font-weight: 700;
- 
+
 }
 
 .answer-for-question__buttons {
@@ -28,14 +27,11 @@
     align-content: center;
     gap: 40px;
     margin-top: 40px;
-    
-}
-.answer-for-question-call-us{
-  
+
 }
 
 
-.answer-for-question-call-us a{
+.answer-for-question-call-us a {
     color: #FFFFFF;
     border: 1px solid transparent;
     background-color: #f98250;
@@ -45,7 +41,13 @@
     width: 124px;
 }
 
-.nswer-for-question-reservation a{
+.answer-for-question-call-us a:hover {
+    background-color: #FFFFFF;
+    transition: 0.7s;
+    color: black;
+}
+
+.nswer-for-question-reservation a {
     color: #FFFFFF;
     border: 1px solid #f98250;
     background-color: transparent;
@@ -53,9 +55,11 @@
     text-decoration: none;
     padding: 15px 25px;
     width: 164px;
-   
-   
 }
 
-
-
+.nswer-for-question-reservation a:hover {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    transition: 0.7s;
+    color: black;
+}
