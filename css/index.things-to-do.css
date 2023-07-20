@@ -9,8 +9,8 @@
 .things-to-do__title {
     color: var(--text-color);
     font-family: var(--title-font-family);
-    font-size: 2.1rem;
-    font-weight: bold;
+    font-size: 34px;
+    font-weight: 700;
     text-align: center;
     margin: 20px;
 }
@@ -21,9 +21,12 @@
     margin: 20px;
     background-color: var(--background-color);
     border-color: var(--fields-border-color);
-    display: block;
+    /*display: block;*/
     min-width: 272px;
     min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 @media (min-width: 768px) {
