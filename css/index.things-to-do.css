@@ -21,7 +21,6 @@
     margin: 20px;
     background-color: var(--background-color);
     border-color: var(--fields-border-color);
-    /*display: block;*/
     min-width: 272px;
     min-height: 400px;
     display: flex;
@@ -32,8 +31,7 @@
 @media (min-width: 768px) {
     .things-to-do__cards {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
+        grid-template-columns: 1fr 1fr;       
     }
 }
 
