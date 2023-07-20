@@ -1,14 +1,61 @@
-.answer-for-question__title {
-    /*color: white;*/
-    font-family: var(--title-font-family);
-    font-size: 60px;
-    font-weight: 700;
+.answer-for-question{
+    background-image: url(../img/answer-for-question-img.jpeg);
+    background-size: cover;
+    min-height: 527px;
+}
+
+.answer-for-question__title-and-buttons{
     text-align: center;
+    padding: 100px 0 100px 0;
+   
+
+}
+
+.answer-for-question__title {
+    font-family: var(--title-font-family);
+    color: #FFFFFF;
+    font-size: 3.75rem;
+    font-weight: 700;
+ 
 }
 
 .answer-for-question__buttons {
     font-family: var(--description-font-family);
     font-size: 15.4px;
     font-weight: 600;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    
 }
+.answer-for-question-call-us{
+  
+}
+
+
+.answer-for-question-call-us a{
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    background-color: #f98250;
+    border-radius: 34px;
+    text-decoration: none;
+    padding: 15px 25px;
+    width: 124px;
+}
+
+.nswer-for-question-reservation a{
+    color: #FFFFFF;
+    border: 1px solid #f98250;
+    background-color: transparent;
+    border-radius: 34px;
+    text-decoration: none;
+    padding: 15px 25px;
+    width: 164px;
+   
+   
+}
+
+
+
