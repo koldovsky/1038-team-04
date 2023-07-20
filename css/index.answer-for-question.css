@@ -2,20 +2,35 @@
     background-image: url(../img/answer-for-question-img.jpeg);
     background-size: cover;
     min-height: 527px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
 }
 
 .answer-for-question__title-and-buttons {
+    display: block;
     text-align: center;
-    padding: 100px 0 100px 0;
+    position: relative;
+    animation-name: title-and-buttons;
+    animation-duration: 5s;
+    
 }
 
+@keyframes title-and-buttons {
+    0% {
+        transform: translateX(100%); 
+    }
+    100% {
+        transform: translateX(0); 
+    }
+}
 
 .answer-for-question__title {
     font-family: var(--title-font-family);
     color: #FFFFFF;
     font-size: 3.75rem;
     font-weight: 700;
-
+    
 }
 
 .answer-for-question__buttons {
@@ -30,6 +45,12 @@
 
 }
 
+@media (max-width: 356px){
+    .answer-for-question__buttons{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 .answer-for-question-call-us a {
     color: #FFFFFF;
