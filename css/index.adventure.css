@@ -1,8 +1,7 @@
 .adventure {
     padding: 80px 24px;
     background-image: url(../img/background-img-adventure.jpeg);
-    background-size: 110%;
-
+    background-size: cover;
 }
 
 .adventure__title-and-subtitle {
