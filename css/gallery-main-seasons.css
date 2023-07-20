@@ -1,7 +1,6 @@
-.container{
+.container {
   margin: auto;
   max-width: 720px;
-  display: block;
   overflow-x: hidden;
 }
 .gallery_img,
@@ -16,91 +15,118 @@
   margin-top: 35px;
   margin-bottom: 54px;
 }
-
 .gallery-picture_of_places_in_different_seasons {
   background: url("../img/gallery_seasons_background.jpg");
   background-size: cover;
+  padding: 2rem;
 }
 .gallery-picture_title { 
   text-align: center;
-  padding: 40px;
-  font-size: 44px;
+  padding: 30px;
+  font-size: 24px;
   color: var(--text-color);
   font-family: var(--title-font-family);
+
 }
-.list-seasons-name{
+.gallery-picture_seasons >div {
+  display: none;
+  border-top: 1px solid var(--background-color);
+  padding: 10px 15px;
+}
+.gallery-picture_seasons>input[type="radio"] {
+  display: none;
+}
+.gallery-picture_seasons >input[type="radio"]:checked+label {
+  font-weight: bold;
+  cursor: default;
+}
+#summer-btn:checked ~ #summer,
+#winter-btn:checked ~ #winter,
+#spring-btn:checked ~ #spring,
+#autumn-btn:checked ~ #autumn,
+#fishing-btn:checked ~ #fishing,
+#spa-btn:checked ~ #spa
+{
+  display: block;
+} 
+.gallery-picture_seasons >label {
   display: flex;
-  flex-direction: column;
-  padding: 30px 20px;
-  font-size: 1.2rem;
   align-items: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: 2px 6px;
+  font-size: 18px;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out;
+  margin-left: 6px;
+  cursor: pointer;
+  margin-bottom: 4px;
+  flex-direction: column;
 }
-.list-seasons-name .list_item{
-  color:var(--description-color);
-  text-decoration: none;
-}
-.list-seasons-name .list_item:hover{
-  color: var(--text-color);
-  text-decoration: underline;
-}
-ul {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-}
-li {
-  margin: 0 10px;
+.gallery-picture_seasons >label:first-of-type {
+  margin-left: 0;
 }
 
-
-@media (min-width:500px) {
-  .container{
+@media (min-width: 500px) {
+  .container {
     margin: auto;
-    max-width: 1300px;
+    max-width: 1100px;
     display: block;    
     overflow-x: hidden;
-}
-.list-seasons-name{
-  flex: 0;
-  flex-direction: row;
-  align-items: center;
-}
+  }
+  .gallery-picture_title { 
+    text-align: center;
+    padding: 30px;
+    font-size: 44px;
+    color: var(--text-color);
+    font-family: var(--title-font-family);
+  }
   .gallery-picture_seasons {
+    text-align: center;
+  }
+  .gallery-picture_seasons > label {
+    display: inline-block;
+    text-align: center;
+    padding: 2px 8px;
+    font-size: 24px;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out;
+    cursor: pointer;
+  }
+  #summer-btn:checked ~ #summer,
+  #winter-btn:checked ~ #winter,
+  #spring-btn:checked ~ #spring,
+  #autumn-btn:checked ~ #autumn,
+  #fishing-btn:checked ~ #fishing,
+  #spa-btn:checked ~ #spa
+  {
+    display: grid;
+  }
+  .gallery-picture_seasons .container {
     width: 60%;
     margin: 2rem auto; 
   }
   .block_summer,
   .block_winter {
-    display: grid;
     grid-template-columns: repeat(12, 1fr) auto auto;
     grid-template-rows:  repeat(12, 5vw) auto auto;
-    margin: 2rem auto; 
     grid-gap: 1.5rem;
   }
   .block_spring,
   .block_autumn,
   .block_fishing,
   .block_spa {
-    display: grid;
     grid-template-columns: repeat(12, 1fr) auto auto;
     grid-template-rows:  repeat(6, 5vw) auto auto;
-    margin: 2rem auto; 
     grid-gap: 1.5rem;
   }
-.gallery_img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block; 
-  border-radius: 10px;
-}
-.picture-summer_house-on-the-mountain,
-.winter-mountains {
-  grid-column-start: 1;
-  grid-column-end: 9;
-  grid-row-start: 1;
-  grid-row-end: 7;
-}
+  .picture-summer_house-on-the-mountain,
+  .winter-mountains {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 7;
+  }
 .picture-summer_horse,
 .picture-winter_skier {
   grid-column-start: 9;
