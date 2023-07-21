@@ -59,7 +59,7 @@ function lovefunc(flower1, flower2){
 }
 ////////////////////////
 function lovefunc(flower1, flower2){
-  return (flower1 + flower2) % 2 === 1 ? true : false;
+  return (flower1 + flower2) % 2 === 1;
 }
 ///////////////////////
 function lovefunc(flower1, flower2) {
