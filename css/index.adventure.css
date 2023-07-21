@@ -2,7 +2,7 @@
     padding: 80px 24px;
     background-image: url(../img/background-img-adventure.jpeg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     z-index: 0;
     
 }
