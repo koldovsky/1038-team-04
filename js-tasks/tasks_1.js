@@ -23,7 +23,7 @@ function makeNegative(num) {
 
 //Game Move https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript
 function move (position, roll) {
-  return position + roll * 2 
+  return position + roll * 2; 
 }
 
 //Personalized Message https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript
@@ -38,6 +38,11 @@ function greet (name, owner) {
 function greet (name, owner) {
   return name === owner ? "Hello boss" : "Hello guest";
 }
+////////////////////////////
+function greet(name, owner) {
+  if (name === owner) return "Hello boss";
+  return "Hello guest";
+}
 
 //Keep Hydrated https://www.codewars.com/kata/keep-hydrated-1/train/javascript
 function litres(time) {
@@ -46,17 +51,22 @@ function litres(time) {
 
 //Opposites Attract https://www.codewars.com/kata/555086d53eac039a2a000083/train/javascript
 function lovefunc(flower1, flower2){
-  // moment of truth
     if (flower1 % 2 == flower2 % 2) {
     return false;
   } else {
-    return true ;
+    return true;
   }
 }
 ////////////////////////
 function lovefunc(flower1, flower2){
   return (flower1 + flower2) % 2 === 1 ? true : false;
 }
-
-
-
+///////////////////////
+function lovefunc(flower1, flower2) {
+  if (
+    (flower1 % 2 === 0 && flower2 % 2 !== 0) ||
+    (flower1 % 2 !== 0 && flower2 % 2 === 0)
+  )
+    return true;
+  return false;
+}
