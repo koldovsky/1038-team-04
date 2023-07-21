@@ -61,12 +61,11 @@
     display: grid;
     gap: 20px;
     padding: 20px;
-    vertical-align: baseline;
 }
 
 .adventure__cards-container h3 {
     text-align: center;
-    font-family: (var--title-font-family);
+    font-family: var(--title-font-family);
     font-size: 22px;
     font-weight: 400;
     line-height: 25px;

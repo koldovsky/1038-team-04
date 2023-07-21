@@ -12,7 +12,7 @@
     text-align: center;
     position: relative;
     animation-name: title-and-buttons;
-    animation-duration: 5s;
+    animation-duration: 3s;
 
 }
 
@@ -40,7 +40,7 @@
     font-weight: 600;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     gap: 40px;
     margin-top: 40px;
 
@@ -79,7 +79,7 @@
     width: 164px;
 }
 
-.nswer-for-question-reservation a:hover {
+.answer-for-question-reservation a:hover {
     background-color: #FFFFFF;
     border-color: #FFFFFF;
     transition: 0.7s;
