@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
-    
+
 }
 
 .adventure__title-and-subtitle {
@@ -47,7 +47,7 @@
 
 }
 
-.adventure__cards-container{
+.adventure__cards-container {
     margin-top: 50px;
 }
 
