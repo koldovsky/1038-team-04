@@ -26,7 +26,10 @@ function min(arr, toReturn) {
   }
 //Поглиблені задачки (робити за бажанням):
 //https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
-
+function warnTheSheep(queue) {
+    return (queue.indexOf('wolf') === queue.length - 1) ? "Pls go away and stop eating my sheep" :
+        "Oi! Sheep number " + (queue.length - queue.indexOf('wolf') - 1) + "! You are about to be eaten by a wolf!"
+}
 //https://www.codewars.com/kata/beginner-lost-without-a-map
 
 //https://www.codewars.com/kata/find-the-first-non-consecutive-number/train/javascript
