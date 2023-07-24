@@ -53,3 +53,15 @@ function past(h, m, s) {
 function isDivisible(n, x, y) {
   return n % x === 0 && n % y === 0;
 }
+
+// https://www.codewars.com/kata/beginner-lost-without-a-map
+function maps(x){
+  let y =[];
+for (let i =0; i<x.length; i++){
+   y[i]=x[i]*2;
+}
+   return y;
+}
+const myArray = [1,2,3,7,7,8];
+let y = maps(myArray);
+console.log(y);
