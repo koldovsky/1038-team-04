@@ -2,12 +2,12 @@
     background-image: url(../img/gallery_carousel_background.jpeg);
     background-size: cover;
     background-position: center;
-    
 }
 
 .cabin-rentals__container{
     height: 100%;
     padding: 15px;
+    padding-top: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
