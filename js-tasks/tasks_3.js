@@ -1,25 +1,21 @@
 //https://www.codewars.com/kata/find-the-smallest-integer-in-the-array/train/javascript
 class SmallestIntegerFinder {
   findSmallestInt(args) {
-    return Math.min(...args)
+    return Math.min(...args);
   }
 }
 
 // https://www.codewars.com/kata/geometry-basics-circle-circumference-in-2d/train/javascript
 function circleCircumference(circle) {
-  const radius = circle.radius;
-  const res = 2 * Math.PI * radius;
-    return res;                 
- }
+  return 2 * Math.PI * circle.radius;
+}
 
 // https://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of/train/javascript
 function giveMeFive(obj){
-  const res = [] 
+  const res = []; 
   for (var key in obj){
-    if ( key.length === 5) {  
-      res.push(key) ;}
-    if ( obj[key].length === 5 ) { 
-      res.push(obj[key]); } 
+    if ( key.length === 5) res.push(key) ;
+    if ( obj[key].length === 5 ) res.push(obj[key]);  
    }
   return res
 }
@@ -45,21 +41,21 @@ class Shark extends Animal {
 
 class Cat extends Animal {
   constructor(name, age, status) {
-    super(name, age, 4, 'cat', status)
+    super(name, age, 4, 'cat', status);
   }
   
   introduce() {
-    return super.introduce()+'  Meow meow!'
+    return super.introduce()+'  Meow meow!';
   }
 }
 
 class Dog extends Animal {
   constructor(name, age, status, master) {
-    super(name, age, 4, 'dog', status)
-    this.master = master
+    super(name, age, 4, 'dog', status);
+    this.master = master;
   }
   
   greetMaster() {
-    return `Hello ${this.master}`
+    return `Hello ${this.master}`;
   }
 }
