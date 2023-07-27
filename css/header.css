@@ -109,7 +109,6 @@
 
     .header__container {
         margin: 0;
-        
     }
 
     .header__top {
@@ -143,7 +142,6 @@
     .header__info {
         flex-direction: row;
         justify-content: space-between;
-        
     }
 
     .header__location {
