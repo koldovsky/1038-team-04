@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
-
 }
 
 
@@ -12,8 +11,13 @@
     .adventure {
         background-size: cover;
         background-size: 100%;
-        background-position: top ;
+    }
+}
 
+@media (min-width: 980px) {
+    .adventure {
+        background-size: cover;
+        background-size: 100%;
     }
 }
 
