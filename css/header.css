@@ -33,15 +33,15 @@
     background-color: var(--text-color);
 }
 
-.header__nav.active .burger__line:nth-child(1) {
+.header__burger.active .burger__line:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
 }
 
-.header__nav.active .burger__line:nth-child(2) {
+.header__burger.active .burger__line:nth-child(2) {
     opacity: 0;
 }
 
-.header__nav.active .burger__line:nth-child(3) {
+.header__burger.active .burger__line:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
 
