@@ -11,7 +11,7 @@ const cards = [
         name: 'Rock Climbing',
         price: '$2/hour',
         image: 'img/rock-climbing.jpg',
-        description: 'Whether you are a professional mountaineer or it’s your first time, Yosemite one of the best places for this kind of sport.'
+        description: 'Whether you are a professional mountaineer or it`s your first time, Yosemite one of the best places for this kind of sport.'
     },
     {
         id: '3',
