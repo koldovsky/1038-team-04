@@ -1,11 +1,5 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
- @font-face {
-     font-family: 'Circular Std', serif;
-     src: url('../fonts/CircularStd-Book.woff') format('woff');
-     font-weight: normal;
-     font-style: normal;
- }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
  * {
      box-sizing: border-box;
@@ -25,7 +19,7 @@
      --form_outline-color: #3b99fc;
      --description-alternative-color: #ffffff;     
      --description-font-family: 'Roboto', sans-serif;
-     font-family: 'Circular Std', serif;
+     font-family: 'Rubik', serif;
      scroll-behavior: smooth;
  }
 
