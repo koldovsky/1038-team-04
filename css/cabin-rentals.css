@@ -1,0 +1,150 @@
+.cabin-rentals {
+    background-image: url(../img/gallery_carousel_background.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cabin-rentals__container{
+    height: 100%;
+    padding: 15px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cabin-rentals__title {
+    color: var(--description-alternative-color);
+    font-family: var(--title-font-family);
+    font-size: 2.75rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+}
+
+.cabin-rentals__all-link-button {
+    color: var(--description-alternative-color);
+    border: 1px solid var(--background-color);
+    font-size: 0.75rem;
+    font-weight: 600;
+    width: 152px;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.cabin-rentals__all-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.cabin-rentals__item-river-chalet,
+.cabin-rentals__item-lookout-lodge,
+.cabin-rentals__item-smoky-view-chalet,
+.cabin-rentals__item-mountain-haven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 419px;
+}
+
+.cabin-rentals__item-river-chalet {
+    background: linear-gradient(rgba(40, 37, 32, 0.8), rgba(40, 37, 32, 0.8)), url(../img/river-chalet-house.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.cabin-rentals__item-lookout-lodge {
+    background: linear-gradient(rgba(40, 37, 32, 0.8), rgba(40, 37, 32, 0.8)), url(../img/lookout-lodge-house.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.cabin-rentals__item-smoky-view-chalet {
+    background: linear-gradient(rgba(40, 37, 32, 0.8), rgba(40, 37, 32, 0.8)), url(../img/smoky-view-chalet-house.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.cabin-rentals__item-mountain-haven {
+    background: linear-gradient(rgba(40, 37, 32, 0.8), rgba(40, 37, 32, 0.8)), url(../img/mountain-haven-house.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.cabin-rentals__item-price {
+    margin-top: 35px;
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: var(--description-alternative-color);
+    font-family: var(--title-font-family);
+}
+
+.cabin-rentals__item-name {
+    font-size: 1.5625rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: var(--description-alternative-color);
+    font-family: var(--title-font-family);
+}
+
+.cabin-rentals__item-details {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--description-alternative-color);
+    font-family: var(--description-font-family);
+}
+
+.cabin-rentals__item-link {
+    background-color: var(--title-color);
+    color: var(--description-alternative-color);
+    font-family: var(--description-font-family);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    margin: 30px;
+}
+
+@media (min-width: 768px) {
+
+    .cabin-rentals__item-river-chalet,
+    .cabin-rentals__item-lookout-lodge,
+    .cabin-rentals__item-smoky-view-chalet,
+    .cabin-rentals__item-mountain-haven {
+        max-width: 570px;
+        min-width: 333px;
+    }
+
+    .cabin-rentals__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .cabin-rentals__list-left {
+        display: grid;
+        justify-items: flex-end;
+        align-items: flex-start;
+    }
+
+    .cabin-rentals__list-right {
+        display: grid;
+        justify-items: flex-start;
+        align-items: flex-start;
+    }
+}
+
+.cabin-rentals__all-link-button:hover,
+.cabin-rentals__item-link:hover {
+    background-color: var(--description-alternative-color);
+    color: var(--text-color);
+}

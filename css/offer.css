@@ -1,11 +1,5 @@
-/* offer */
 @import url(global.css);
-
-/* header */
-/* @import url(name.css); */
-
-/* main */
+@import url(header.css);
 @import url(offer-main-cabin-rentals.css);
-
-/*footer */
-/* @import url(name.css); */
+@import url(form.css);
+@import url(footer.css);

@@ -1,43 +1,42 @@
-<section>
-    <!--select images changes -->
-    <img src="img/contacts_form_background.jpeg" alt="contacts background">
-    <div>
-        <div>
-            <h2>Contact Us</h2>
-            <p> If you have any questions, feel free to get in touch with us at any time.</p>
+<section class="contacts_us">
+    <div class="contacts_us__content">
+        <h2 class="contacts_us__content_info-title">Contact Us</h2>
+        <p class="contacts_us__content_info-text">If you have any questions, feel free to get in touch with us
+            at any time.</p>
+        <div class="contacts_us__content_mail">
+            <h3 class="contacts_us__content_mail-title">Write Us </h3>
+            <a class="contacts_us__content_mail-text" href="mailto:yosemite@email.com">yosemite@email.com</a>
         </div>
-        <div>
-            <div>
-                <h3>Write Us </h3>
-                <a href="mailto:yosemite@email.com">yosemite@email.com</a>
-
-            </div>
-            <div>
-                <h3>Call Us</h3>
-                <a href="tel:+1123456789">+1 (123) 45 67 89</a> <br>
-                <a href="tel:+1123456700">+1 (123) 45 67 00</a>
-            </div>
-            <div>
-                <h3>Visit Us</h3>
-                <p>Yosemite Mariposa County,
-                    Ca, USA
-                </p>
+        <div class="contacts_us__content_phone">
+            <h3 class="contacts_us__content_phone-title">Call Us</h3>
+            <div class="contacts_us__content_phone-number">
+                <a class="contacts_us__content_phone-text" href="tel:+1123456789">+1 (123) 45 67 89</a> <br>
+                <a class="contacts_us__content_phone-text" href="tel:+1123456700">+1 (123) 45 67 00</a>
             </div>
         </div>
-        <!-- form -->
-        <form action="" method="get">
-            <div>
-                <label for="contact-name"></label>
-                <input type="text" name="contact-name" id="contact-name" placeholder="Name*" required>
+        <div class="contacts_us__content_addres">
+            <h3 class="contacts_us__content_addres-title">Visit Us</h3>
+            <div class="contacts_us__content_addres-field">
+                <p class="contacts_us__content_addres-text">Yosemite Mariposa County, </p>
+                <p class="contacts_us__content_addres-text"> Ca, USA</p>
             </div>
-            <div>
-                <label for="contact-pnumber"></label>
-                <input type="tel" pattern="[0-9]{9}" name="contact-pnumber" id="contact-pnumber"
-                    placeholder="Phone number*" required>
-            </div>
-            <div>
-                <input type="submit" value="SEND">
-            </div>
-        </form>
+        </div>
     </div>
+    <form class="contacts_us__form" action="" method="get">
+        <div class="contacts_us__form-box ">
+            <div class="contacts_us__form-windows ">
+                <label class="contacts_us__form-label" for="contact-name"></label>
+                <input class="contacts_us__form-name" type="text" name="contact-name" id="contact-name"
+                    placeholder="Name*" required>
+            </div>
+            <div class="contacts_us__form-windows ">
+                <label class="contacts_us__form-label" for="contact-pnumber"></label>
+                <input class="contacts_us__form-tel" type="tel" pattern="[0-9]{1,9}" name="contact-pnumber"
+                    id="contact-pnumber" placeholder="Phone number*" required>
+            </div>
+            <div class="contacts_us__form-button ">
+                <input class="contacts_us__form-input-button" type="submit" value="SEND">
+            </div>
+        </div>
+    </form>
 </section>

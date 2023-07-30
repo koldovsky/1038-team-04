@@ -1,0 +1,133 @@
+.container {
+    margin: auto;
+    max-width: 720px;
+    display: block;
+    overflow-x: hidden;
+}
+.block__rental-policies{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.rental-policies{
+    font-family: var(--description-font-family);
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0 24px;
+    background-image: url(../img/policies-background-image-grey.jpg);
+}
+
+.rental-policies__title {
+    padding-top: 50px;
+    font-size: 34px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.rental-policies__subtitle {
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 7px;
+    max-width: 100%;
+}
+
+.rental-policies__name-phone {
+    font-size: 19px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+.rental-policies__name-phone:nth-child(5) {
+    margin-bottom: 65px;
+}
+
+.name-phone__personal-phone {
+    color: var(--icons-color);
+    text-align: center;
+}
+.rental-policies__items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.rental-policies__items-item {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 33px;
+}
+
+.rental-policies__items-item:last-child {
+    padding-bottom: 33px;
+    margin-bottom: 0;
+}
+
+.item__description-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.item__description-subtitle {
+    font-size: 16px;
+}
+
+.item__image-container {
+    min-width: 50px;
+    height: 50px;
+    background-color: var(--background-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item__image {
+    color: var(--title-color);
+    width: 26px;
+    height: 26px;
+}
+.item__description{
+    max-width: 640px;
+}
+.description-subtitle-space {
+    margin-bottom: 32px;
+}
+@media (min-width:768px){
+    .rental-policies {
+        padding: 0 32px;
+    }
+    .rental-policies__items{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .container{
+        margin: auto;
+        max-width: 1170px;
+        display: block;    
+        overflow-x: hidden;
+    }
+    .block__rental-policies{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .rental-policies__items-item{
+        /* max-width: 525px; */
+    }
+    .item__image-container {
+        min-width: 70px;
+        max-width: 70px;
+        height: 70px;
+    }
+    .item__description{
+        max-width: 480px;
+    }
+}
