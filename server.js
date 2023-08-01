@@ -1,35 +1,37 @@
 const express = require('express');
-const bodyParser = require('body-parser');
+const path = require('path');
 const fs = require('fs');
+const bodyParser = require('body-parser');
 
 const app = express();
 const port = 3000;
 
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
 
-app.post('/save_form_data', (req, res) => {
-  const formData = {
-    name: req.body['contact-name'],
-    phoneNumber: req.body['contact-pnumber'],
-  };
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
 
-  console.log(formData);
+app.post('/post', (req, res) => {
+  const data = req.body;
+  console.log('Отримані дані з POST-запиту:', data);
 
-  const jsonData = JSON.stringify(formData) + '\n'; // Додаємо символ нового рядка
-
-  // Дописуємо дані у файл "data.json"
-  fs.appendFile('./api/data.json', jsonData, (err) => {
+  fs.appendFile(path.join(__dirname, 'api/data.txt'), JSON.stringify(data) + '\n', (err) => {
     if (err) {
-      console.error('Помилка збереження даних:', err);
-      res.status(500).send('Помилка збереження даних');
+      console.error('Помилка при збереженні даних:', err);
+      res.status(500).send('Помилка при збереженні даних');
     } else {
-      console.log('Дані успішно дописано у файл data.json');
-      res.send('Дані успішно дописано');
+      res.send('Дякую за ваш POST-запит!');
     }
   });
 });
 
+app.all('*', (req, res) => {
+  res.status(404).send('Сторінку не знайдено');
+});
+
 app.listen(port, () => {
-  console.log(`Сервер запущено на порту ${port}`);
+  console.log(`Сервер запущений на порті ${port}`);
 });

@@ -22,7 +22,7 @@
             </div>
         </div>
     </div>
-    <form id ="contacts_us__form" class="contacts_us__form" action="http://localhost:3000/save_form_data" method="post">
+    <form id ="contacts_us__form" class="contacts_us__form" action="http://localhost:3000/post" method="post">
         <div class="contacts_us__form-box ">
             <div class="contacts_us__form-windows ">
                 <label class="contacts_us__form-label" for="contact-name"></label>
@@ -39,23 +39,6 @@
             </div>
         </div>
     </form>
-    <!-- <script>
-        const form = document.getElementById('contacts_us__form');
-        form.addEventListener('submit', function (event) {
-            event.preventDefault(); // Забороняємо стандартну поведінку форми (перезавантаження сторінки)
-    
-            const formData = new FormData(form);
-            fetch('/save_form_data', {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => response.text())
-            .then(message => {
-                console.log(message);
-            })
-            .catch(error => console.error('Помилка відправки AJAX-запиту:', error));
-        });
-    </script> -->
-    
+    <div id="contact-form-status"></div>
     </body>
 </section>
