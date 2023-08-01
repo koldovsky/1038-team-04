@@ -129,3 +129,13 @@
     width: calc(33.3333333333% - var(--gap) * 2 / 3);
   }
 }
+
+@media (min-width: 1500px) {
+  .gallery_sl-item {
+    width: calc(100%- var(--gap)  );
+
+  }
+  .gallery_carousel-img {
+    width: 570px;
+    height: 570px;}
+}
