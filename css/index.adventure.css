@@ -1,63 +1,85 @@
 .adventure {
-    background-image: url(/img/background-img-adventure.jpeg);
-    padding-top: 80px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 80px;
+    padding: 80px 24px;
+    background-image: url(../img/background-img-adventure.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+
+@media (min-width: 320px) {
+    .adventure {
+        background-size: cover;
+        background-size: 100%;
+    }
+}
+
+@media (min-width: 980px) {
+    .adventure {
+        background-size: cover;
+        background-size: 100%;
+    }
+}
+
+.adventure__title-and-subtitle {
+    display: grid;
+    gap: 24px;
 }
 
 .adventure__title {
     font-family: var(--title-font-family);
-    font-size: 34px;
-    font-weight: 700;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #282520;
     text-align: center;
-    margin-bottom: 25px;
 }
 
 .adventure__subtitle {
     font-family: var(--description-font-family);
-    font-size: 19px;
-    font-weight: 400;
+    font-size: 1.19rem;
     text-align: center;
-    display: inline;
-    box-sizing: border-box;
-    line-height: 30.4px;
     color: var(--description-color);
-    margin-top: 25px;
+    line-height: 30px;
+    max-width: none;
 }
 
-.adventure__title-and-subtitle {
-    display: block;
-    text-align: center;
-    padding-left: 24px;
-    padding-right: 24px;
+@media (min-width: 768px) {
+    .adventure__cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .adventure__cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+
 }
 
 .adventure__cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-top: 40px;
+    margin-top: 50px;
+}
+
+.adventure__cards-container img {
+    border-radius: 5%;
+    width: 100%;
+    height: auto;
 }
 
 .adventure__cards-container>div {
-    flex-basis: 33.33%;
-    box-sizing: border-box;
+    display: grid;
+    gap: 20px;
     padding: 20px;
 }
 
-/*
-img {
-    min-height: 199px;
-    min-width: 309px;
-    border-radius: 5%;
-    margin: 0 auto;
-}
-*/
-/*
-h3 {
+.adventure__cards-container h3 {
     text-align: center;
-    margin-top: 20px;
-    width: 309px;
+    font-family: var(--title-font-family);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
 }
-*/

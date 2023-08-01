@@ -1,143 +1,203 @@
+.container {
+  max-width: 720px;
+}
+
+.gallery_img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.block_summer,
+.block_winter,
+.block_spring,
+.block_autumn,
+.block_fishing,
+.block_spa {
+  min-height: 100px;
+  border-radius: 10px;
+  margin-top: 35px;
+  margin-bottom: 54px;
+}
+
 .gallery-picture_of_places_in_different_seasons {
   background: url("../img/gallery_seasons_background.jpg");
   background-size: cover;
+  padding: 2rem;
 }
-.gallery-picture_title { 
+
+.gallery-picture_title {
   text-align: center;
-  padding: 40px;
-  font-size: 44px;
+  padding: 30px;
+  font-size: 24px;
   color: var(--text-color);
   font-family: var(--title-font-family);
 }
-.list-seasons-name{
-  display: flex;
-  flex-direction: column;
-  padding: 30px 20px;
-  font-size: 1.2rem;
-  align-items: center;
-}
-.list-seasons-name .list_item{
-  color:var(--description-color);
-  text-decoration: none;
-}
-.list-seasons-name .list_item:hover{
-  color: var(--text-color);
-  text-decoration: underline;
-}
-ul {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-}
-li {
-  margin: 0 10px;
-}
-.list-seasons-name{
-  flex: 0;
-  flex-direction: row;
-  align-items: center;
-  
+
+.gallery-picture_seasons>div {
+  display: none;
+  border-top: 1px solid var(--background-color);
+  padding: 10px 15px;
 }
 
-@media (min-width:500px) {
-  
-  .gallery-picture_seasons {
-    width: 60%;
-    margin: 2rem auto; 
+.gallery-picture_seasons>input[type="radio"] {
+  display: none;
+}
+
+.gallery-picture_seasons>input[type="radio"]:checked+label {
+  font-weight: bold;
+  cursor: default;
+}
+
+#summer-btn:checked~#summer,
+#winter-btn:checked~#winter,
+#spring-btn:checked~#spring,
+#autumn-btn:checked~#autumn,
+#fishing-btn:checked~#fishing,
+#spa-btn:checked~#spa {
+  display: block;
+}
+
+.gallery-picture_seasons>label:first-of-type {
+  margin-left: 0;
+}
+
+@media (min-width: 500px) {
+  .container {
+    margin: auto;
+    max-width: 1100px;
+    display: block;
+    overflow-x: hidden;
   }
+/* добавив */
+  .gallery_img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .gallery-picture_title {
+    text-align: center;
+    padding: 30px;
+    font-size: 44px;
+    color: var(--text-color);
+    font-family: var(--title-font-family);
+  }
+
+  .gallery-picture_seasons {
+    text-align: center;
+  }
+
+  .gallery-picture_seasons>label {
+    display: inline-block;
+    text-align: center;
+    padding: 2px 8px;
+    font-size: 24px;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out;
+    cursor: pointer;
+  }
+
+  #summer-btn:checked~#summer,
+  #winter-btn:checked~#winter,
+  #spring-btn:checked~#spring,
+  #autumn-btn:checked~#autumn,
+  #fishing-btn:checked~#fishing,
+  #spa-btn:checked~#spa {
+    display: grid;
+  }
+
   .block_summer,
   .block_winter {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr) auto auto;
-    grid-template-rows:  repeat(12, 5vw) auto auto;
-    margin: 2rem auto; 
+    grid-template-columns: repeat(12, 1fr)  ;
+    grid-template-rows: repeat(12, 5vw) ;
     grid-gap: 1.5rem;
-    
   }
+
   .block_spring,
   .block_autumn,
   .block_fishing,
   .block_spa {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr) auto auto;
-    grid-template-rows:  repeat(6, 5vw) auto auto;
-    margin: 2rem auto; 
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 5vw);
     grid-gap: 1.5rem;
   }
-.gallery_img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block; 
-  border-radius: 10px;
-}
-.picture-summer_house-on-the-mountain,
-.winter-mountains {
-  grid-column-start: 1;
-  grid-column-end: 9;
-  grid-row-start: 1;
-  grid-row-end: 7;
-}
-.picture-summer_horse,
-.picture-winter_skier {
-  grid-column-start: 9;
-  grid-column-end: 13;
-  grid-row-start: 1;
-  grid-row-end: 4;
-}
-.picture-summer_lake,
-.picture-winter_girl-with-coffee {
-  grid-column-start: 9;
-  grid-column-end: 13;
-  grid-row-start: 4;
-  grid-row-end: 7;
-}
-.picture-summer_house-interior,
-.picture-winter_house-by-the-lake {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 7;
-  grid-row-end: 10;
-}
-.picture-summer_house-in-the-forest,
-.picture-winter_horse {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 10;
-  grid-row-end: 13;
-}
-.picture-summer_house-with-flowers,
-.picture-winter_houses-in-the-mountains {
-  grid-column-start: 5;
-  grid-column-end: 13;
-  grid-row-start: 7;
-  grid-row-end: 13;
-}
-.picture-spring_house-on-the-mountain,
-.picture-autumn_gray-house,
-.picture-fishing_fisherman,
-.picture-spa_window {
-  grid-column-start: 1;
-  grid-column-end: 9;
-  grid-row-start: 1;
-  grid-row-end: 7;
-}
-.picture-spring_house-near-the-lake,
-.picture-autumn_house-in-the-forest,
-.picture-fishing_wooden-boat,
-.picture-spa_bath {
-  grid-column-start: 9;
-  grid-column-end: 13;
-  grid-row-start: 1;
-  grid-row-end: 4;
-}
-.picture-spring_hous-in-the-forest,
-.picture-autumn_girl-near-the-house,
-.picture-fishing_red-boat,
-.picture-spa_terrace {
-  grid-column-start: 9;
-  grid-column-end: 13;
-  grid-row-start: 4;
-  grid-row-end: 7;
-}
+
+  .picture-summer_house-on-the-mountain,
+  .winter-mountains {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 7;
+  }
+
+  .picture-summer_horse,
+  .picture-winter_skier {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+
+  .picture-summer_lake,
+  .picture-winter_girl-with-coffee {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 7;
+  }
+
+  .picture-summer_house-interior,
+  .picture-winter_house-by-the-lake {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 10;
+  }
+
+  .picture-summer_house-in-the-forest,
+  .picture-winter_horse {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 10;
+    grid-row-end: 13;
+  }
+
+  .picture-summer_house-with-flowers,
+  .picture-winter_houses-in-the-mountains {
+    grid-column-start: 5;
+    grid-column-end: 13;
+    grid-row-start: 7;
+    grid-row-end: 13;
+  }
+
+  .picture-spring_house-on-the-mountain,
+  .picture-autumn_gray-house,
+  .picture-fishing_fisherman,
+  .picture-spa_window {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 7;
+  }
+
+  .picture-spring_house-near-the-lake,
+  .picture-autumn_house-in-the-forest,
+  .picture-fishing_wooden-boat,
+  .picture-spa_bath {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+
+  .picture-spring_hous-in-the-forest,
+  .picture-autumn_girl-near-the-house,
+  .picture-fishing_red-boat,
+  .picture-spa_terrace {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 7;
+  }
 }

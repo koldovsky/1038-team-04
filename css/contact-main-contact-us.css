@@ -1,12 +1,12 @@
-.contacts_us {
+.contact_background {
     padding: 95px 0px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/contacts_form_background.jpeg");
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
 .contacts_us__content {
-    padding: 0px 15px;    
+    padding: 0px 15px;
 }
 
 .contacts_us__content_info-title {
@@ -60,6 +60,7 @@
     width: 80%;
     font-family: var(--description-font-family);
     font-size: 14px;
+    outline-color: var(--form_outline-color);
 }
 
 .contacts_us__form-name {
@@ -113,5 +114,10 @@
 
     .contacts_us__content_info-text {
         margin: 20px 0px 20px;
+    }
+
+    .contacts_us__form-box {
+        margin-top: 0px;
+
     }
 }

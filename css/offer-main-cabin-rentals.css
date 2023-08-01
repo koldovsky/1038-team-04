@@ -1,4 +1,4 @@
-.cabin-ofers-title{
+.cabin-ofers-title {
     display: flex;
     justify-content: center;
     font-family: var(--title-font-family);
@@ -6,21 +6,26 @@
     font-weight: bolder;
     margin-bottom: 50px;
 }
-.house-ofer-price{
-    color:var(--icons-color);
+
+.house-ofer-price {
+    color: var(--icons-color);
 }
-h3{
+
+h3 {
     font-family: var(--title-font-family);
-     font-weight:bold ;
-     font-size: xx-large;
+    font-weight: bold;
+    font-size: xx-large;
 }
-.ofer-content{
-    margin: 50px 0px 50px 10px;
+
+.ofer-content {
+    margin: 50px 0px 50px 30px;
+    padding: 30px;
 }
+
 .cabin-ofers-reserve-cabin-button {
     background-color: var(--title-color);
     margin-top: 50px;
-    height: 40px;
+    min-height: 40px;
     border-radius: 40px;
     color: var(--background-color);
     font-weight: bolder;
@@ -29,6 +34,46 @@ h3{
     text-align: center;
     padding: 10px;
 }
-.cabin-ofers-reserve-cabin-button:hover{
+
+.cabin-ofers-reserve-cabin-button:hover {
     background-color: var(--icons-color);
+}
+
+.cabin-ofers-image {
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.cabin-ofer {
+    margin: 50px;
+}
+
+.house-ofer-rooms {
+    padding: 10px;
+}
+
+.house-ofer-comfort {
+    padding: 10px;
+}
+
+.house-ofer-rooms-li {
+    list-style-image: url('img/bullet-icon.svg');
+}
+
+/* .bullet-icon {
+    color: rgb(249, 130, 80);
+    width: 20px;
+    height: 20px;
+} */
+
+@media (min-width:767px) {
+    .cabin-ofer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cabin-ofers-image {
+        max-width: 500px;
+        max-height: 300px;
+    }
 }

@@ -1,11 +1,5 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
- @font-face {
-     font-family: 'Circular Std', serif;
-     src: url('../fonts/CircularStd-Book.woff') format('woff');
-     font-weight: normal;
-     font-style: normal;
- }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
  * {
      box-sizing: border-box;
@@ -22,14 +16,17 @@
      --description-color: #848484;
      --rentals-description-color: #bdbdbd;
      --fields-background-color: #f5f5f5;
-     --title-font-family: 'Circular Std', serif;
+     --form_outline-color: #3b99fc;
+     --description-alternative-color: #ffffff;     
      --description-font-family: 'Roboto', sans-serif;
-     font-family: 'Circular Std', serif;
+     --title-font-family: 'Poppins', serif;
+     font-family: 'Poppins', serif;
      scroll-behavior: smooth;
  }
- .body {
-    max-width: 1024px;
-    margin: auto;
+
+ .container {
+     max-width: 1200px;
+     margin: auto;
  }
 
  img {
@@ -50,6 +47,10 @@
      font-family: var(--title-font-family);
      font-weight: normal;
  }
+
+ input {
+    font-family: var(--description-font-family);    
+}
 
  p {
      max-width: 644px;

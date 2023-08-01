@@ -24,10 +24,10 @@
 }
 
 .footer__logo img {
-    width: 143px;
+    width: 100%;
+    min-width: 113px;
+    max-width: 143px;
     height: auto;
-    min-width: 100%;
-    min-height: 100%;
 }
 
 .footer__links-list {
@@ -88,6 +88,7 @@
 }
 
 @media (min-width: 768px) {
+
     .footer__main {
         display: flex;
     }
@@ -95,6 +96,7 @@
     .footer__logo {
         justify-content: center;
         flex: 1;
+        padding-left: 5px;
     }
 
     .footer__links {
