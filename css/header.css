@@ -59,6 +59,7 @@
 
 .header__nav.active {
     left: 0;
+    z-index: 1000;
 }
 
 .header__menu {
