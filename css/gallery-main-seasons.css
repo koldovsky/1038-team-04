@@ -61,6 +61,21 @@
   margin-left: 0;
 }
 
+@media (max-width: 499px) {
+  .gallery-picture_seasons {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    font-size: 1.2rem;
+    align-items: center;
+  }
+
+  .gallery-picture_seasons>label {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
 @media (min-width: 500px) {
   .container {
     margin: auto;
