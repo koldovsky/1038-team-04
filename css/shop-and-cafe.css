@@ -1,3 +1,36 @@
 .shop{
-    background-image: url("img/background-shop-and-cafe.jpeg");
+    padding:90px 0px;
+    background-image: url("../img/background-shop-and-cafe.jpeg");
+}
+
+.shop__title__container{
+    padding: 0px 15px;
+}
+
+.shop__title{
+    text-align: center;
+    vertical-align: baseline;
+    color:white;
+    font-weight: 700;
+    font-size:34px;
+    font-family:var(--title-font-family);
+}
+
+.shop__info{
+    color:#D1D1D1;
+    padding: 40px 0px;;
+    font-size: 19px;
+    font-family: var(--description-font-family);
+    font-weight: 400;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.shop__content{
+    padding:0px 15px;
+}
+
+.shop__card{
+    background-color: #FFFFFF17;
+    
 }
