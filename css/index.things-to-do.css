@@ -1,44 +1,93 @@
-.things-to-do__title {
-    color: var(--text-color);
-    font-family: var(--title-font-family);
-    font-size: 2.1rem;
-    font-weight: bold;
-    text-align: center;
+.things-to-do__inner {
+    background-image: url(../img/background-things-to-do.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 32px;
 }
 
-.cards__heading {
-    color: var(--text-color);
-    font-family: 'Circular Std', serif;
-    font-size: 22px;
-    font-weight: bold;
+.things-to-do__title {
+    color: var(--text-color);    
+    font-size: 39px;
+    font-weight: 700;
     text-align: center;
+    margin: 20px;
+}
+
+.cards__item {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: var(--background-color);
+    border-color: var(--fields-border-color);
+    min-width: 272px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0 5px 20px var(--fields-border-color);
+}
+
+@media (min-width: 768px) {
+    .things-to-do__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;       
+    }
+}
+
+@media (min-width: 992px) {
+    .things-to-do__cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+.cards__heading{   
+    margin-top: 20px;
+}
+
+.cards__heading-text {
+    color: var(--text-color);    
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;      
 }
 
 .cards__subheading {
-    box-sizing: border-box;
-    color: var(--title-color);
-    font-family: 'Circular Std', serif;
+    color: var(--title-color);    
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    margin-top: 5px;    
 }
 
-.cards__description {
+.cards__description{   
+    margin-top: 25px;   
+}
+
+.cards__description-text {
     color: var(--description-color);
     font-family: var(--description-font-family);
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    position: relative;
+    max-width: 100%;       
+    word-wrap: break-word;
+    line-height: 25.6px;     
 }
 
-.cards__item {
-    background-color: var(--background-color);
-    border-color: var(--fields-border-color);
-    display: block;
+.cards__item-image-container {
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    vertical-align: baseline;    
 }
 
 .cards__image {
     border-radius: 10px;
-    border-color: var(--fields-border-color);    
-    width: 313px;
+    border-color: var(--fields-border-color);
+    min-width: 232px;
+    min-height: 153.812px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
 }
