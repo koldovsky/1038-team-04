@@ -12,9 +12,13 @@ function renderCards(cards) {
                 <div class="cards__item-image-container">
                     <img class="cards__image" src="${card.image}" alt="${card.name}">
                 </div>
-                <h3 class="cards__heading">${card.name}</h3>
+                <div class="cards__heading">
+                <h3 class="cards__heading-text">${card.name}</h3>
+                </div>                
                 <h4 class="cards__subheading">${card.price}</h4>
-                <p class="cards__description">${card.description}</p>
+                <div class="cards__description">
+                    <p class="cards__description-text">${card.description}</p>
+                </div>                
             </article>`;
     }
 }
