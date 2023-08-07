@@ -17,7 +17,7 @@
                     <p>Fireplace</p>
                     <p>Wi-Fi</p>
                 </div>
-                <a class="cabin-ofers-reserve-cabin-button" href="#reservation-form">
+                <a class="cabin-ofers-reserve-cabin-button" href="#reservation-form-formspree">
                     RESERVE CABIN
                 </a>
             </article>
@@ -38,7 +38,7 @@
                     <p>Jacuzzi Tub</p>
                     <p>Wi-Fi</p>
                 </div>
-                <a class="cabin-ofers-reserve-cabin-button" href="#reservation-form">
+                <a class="cabin-ofers-reserve-cabin-button" href="#reservation-form-formspree">
                     RESERVE CABIN
                 </a>
             </article>
@@ -59,7 +59,7 @@
                     <p>Fireplace</p>
                     <p>Wi-Fi</p>
                 </div>
-                <a class="cabin-ofers-reserve-cabin-button" href="#reservation-form">
+                <a class="cabin-ofers-reserve-cabin-button" href="#reservation-form-formspree">
                     RESERVE CABIN
                 </a>
             </article>
@@ -80,7 +80,7 @@
                     <p>Grill</p>
                     <p>Wi-Fi</p>
                 </div>
-                <a class="cabin-ofers-reserve-cabin-button" href="#reservation-form">
+                <a class="cabin-ofers-reserve-cabin-button" href="#reservation-form-formspree">
                     RESERVE CABIN
                 </a>
             </article>
@@ -101,7 +101,7 @@
                     <p>Hot Tub</p>
                     <p>Air Hockey</p>
                 </div>
-                <a class="cabin-ofers-reserve-cabin-button" href="#reservation-form">
+                <a class="cabin-ofers-reserve-cabin-button" href="#reservation-form-formspree">
                     RESERVE CABIN
                 </a>
             </article>
@@ -111,12 +111,12 @@
         <section class="reservation">
             <h2 class="reservation-title">Make a reservation</h2>
             <p class="reservation-description">Please complete the form below</p>
-            <form action="" method="" class="reservation-form" id="reservation-form">
-                <input type="text" placeholder="Name" class="reservation-input">
-                <input type="text" placeholder="Phone number" class="reservation-input">
-                <input type="text" placeholder="Check in date" class="reservation-input">
-                <input type="text" placeholder="Check out date" class="reservation-input">
-                <select name="Number-of-guests" aria-placeholder="Number of guests" class="reservation-select">
+            <form action="" method="" class="reservation-form" id="reservation-form-formspree">
+                <input type="text" name="name" placeholder="Name" class="reservation-input">
+            <input type="text" name="phone-number" placeholder="Phone number" class="reservation-input">
+            <input type="text" name="check-in-date" placeholder="Check in date" class="reservation-input">
+            <input type="text" name="check-out-date" placeholder="Check out date" class="reservation-input">
+                <select name="number-of-guests" aria-placeholder="Number of guests" class="reservation-select">
                     <option>Cabin clasic</option>
                     <option>Cabin superior</option>
                     <option>Cabin superior+</option>
@@ -124,6 +124,7 @@
                     <option>The firehouse</option>
                 </select>
                 <input type="submit" placeholder="Make a reservation" class="reservation-submit">
+                <div id="index-form-status"></div>
             </form>
         </section>
     </div>

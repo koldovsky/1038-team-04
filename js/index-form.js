@@ -1,4 +1,4 @@
-const form = document.getElementById("index-form-formspree");
+const form = document.getElementById("reservation-form-formspree");
 
 function checkFormValidity() {
     return document.querySelector('.reservation-input').value !== '' &&
