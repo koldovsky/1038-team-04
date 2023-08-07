@@ -1,3 +1,20 @@
+// ----------------------------------my package-----start------------------------
+const add_json = await fetch('api/carousel.json');
+const carousel_photo =await add_json.json();
+
+async function appendPhoto(carousel_photo) {
+    const carouselImg = document.querySelector('.gallery_sl-items');
+    carouselImg.innerHTML = '';
+    for (const photo of carousel_photo) {
+        carouselImg.innerHTML += `
+         <div class="gallery_sl-item">
+            <img class="gallery_carousel-img" src="${photo.image}" alt="${photo.description}">
+         </div> `;
+    }
+}
+
+appendPhoto(carousel_photo);
+// ----------------------------------my package____fin ____________
 
 class gallery_sl {
   static #EL_WRAPPER = 'wrapper';

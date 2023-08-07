@@ -15,9 +15,9 @@ header(Пролубщикова).
 main(Рябцев.Півнюк.Світто) 
 footer (Савченко)
 
--gallery.html (photo-gallery), tag => h2  'Gallery'  виконання 70%
+-gallery.html (photo-gallery), tag => h2  'Gallery'  виконання 100%
 header(Пролубщикова).
-main(Савінський .Миколишин)  70%  / 95 % виконання
+main(Савінський .Миколишин)  100%  / 100 % виконання
 footer (Савченко)
 
 -offer.html (rent-offer-accommodations), tag => h2  'Cabin Rentals'  виконання наповнення 100% розмітка 50%
@@ -27,7 +27,7 @@ footer (Савченко)
 
 -contact.html  (contact) ,tag => h2 'How to Get There'  виконання по блоках 50%
 header(Пролубщикова).
-main(Проходченко.Миколишин) виконання  0%  99%
+main(Проходченко.Миколишин) виконання  0% / 100%
 footer (Савченко)
 
 -policies.html (rental-policies), tag => h2 ' Rental policies' 99%
