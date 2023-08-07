@@ -13,7 +13,7 @@ async function handleSubmit(event) {
         return;
     }
     const response = await fetch(event.target.action, {
-        method: form.method,
+        method: 'POST', // Set the HTTP method to POST
         body: new FormData(event.target),
         headers: {
             'Accept': 'application/json'
@@ -26,4 +26,5 @@ async function handleSubmit(event) {
         status.innerHTML = "Oops! There was a problem submitting your form";
     }
 }
+
 form.addEventListener("submit", handleSubmit)
