@@ -20,9 +20,9 @@ header(Пролубщикова).
 main(Савінський .Миколишин)  100%  / 100 % виконання
 footer (Савченко)
 
--offer.html (rent-offer-accommodations), tag => h2  'Cabin Rentals'  виконання наповнення 100% розмітка 50%
+-offer.html (rent-offer-accommodations), tag => h2  'Cabin Rentals'  виконання наповнення 100% розмітка 100%
 header(Пролубщикова).
-main(Стасюк) 
+main(Стасюк) виконання 100%
 footer (Савченко)
 
 -contact.html  (contact) ,tag => h2 'How to Get There'  виконання по блоках 50%
