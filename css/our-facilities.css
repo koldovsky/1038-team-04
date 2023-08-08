@@ -1,4 +1,4 @@
-.our-facilities__text {
+.our-facilities__title {
     color: var(--text-color);    
     font-size: 39px;
     font-weight: 700;
@@ -6,12 +6,8 @@
     margin: 20px;
 }
 
-.our-facilities__image {
-    background-image: url(../img/nature.jpg);
-    background-size: cover;
-    min-height: 527px;
-    display: flex;
+.our-facilities {
+    background-image: cover;
     align-items: center;
     justify-content: center;
 }
-
