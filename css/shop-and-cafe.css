@@ -26,6 +26,7 @@
     font-weight: 400;
     text-align: center;
     vertical-align: baseline;
+    max-width: none;
 }
 
 .shop-card{
@@ -41,7 +42,7 @@
 .shop-card__image-container{
     border-radius: 10px;
     width: 100%;
-    position: relative;
+    position:relative;
     vertical-align: baseline;   
 }
 
@@ -50,9 +51,14 @@
     display: flex;
     align-items: center;
     justify-content: center;   
+    min-width: 232px;
+    min-height: 150px;
+    max-height: 190px;
+    object-fit: cover;
 }
 
 .shop-card__title{
+    margin-top: 15px;
     text-align: center;
     vertical-align: baseline;
     color:white;
@@ -70,4 +76,11 @@
     font-weight: 400;
     text-align: center;
     vertical-align: baseline;
+}
+
+@media (min-width: 768px) {
+    .shop__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;       
+    }
 }
