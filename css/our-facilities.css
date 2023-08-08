@@ -1,8 +1,17 @@
 .our-facilities__text {
-    color: black;
+    color: var(--text-color);    
+    font-size: 39px;
+    font-weight: 700;
     text-align: center;
-    border: 1px solid black; 
-    padding: 10px; 
-    margin: 0; 
+    margin: 20px;
+}
+
+.our-facilities__image {
+    background-image: url(../img/nature.jpg);
+    background-size: cover;
+    min-height: 527px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
