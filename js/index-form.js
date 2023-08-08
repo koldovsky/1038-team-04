@@ -9,7 +9,7 @@ async function handleSubmit(event) {
     event.preventDefault();
     const status = document.getElementById("index-form-status");
     if (!checkFormValidity()) {
-        status.innerText = 'Please correct errors';
+        status.innerText = "Please don't leave empty blanks!";
         return;
     }
     const response = await fetch(event.target.action, {
