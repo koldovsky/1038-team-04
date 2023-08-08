@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Horse Ranch Cottage",
+        "image": "img/horse.jpg",
+        "description": "This private cottage is located within the Horse Ranch with a spacious fenced area. Explore a lot of tree-lined trails, see ranch animals and spectacular views."
+    },
+    {
+        "id": "2",
+        "name": "Tuolumne Meadows Lodge",
+        "image": "img/tuolumne-meadows-lodge.jpg",
+        "description": "The Tuolumne Meadows Lodge offers 70 canvas-tent cabins for you to rent June to late August. This can be your best place to rest after an exhausting backpacking trip."
+    },
+    {
+        "id": "3",
+        "name": "Sunrise Vacation Rental",
+        "image": "img/sunrise-vacation-rental.jpg",
+        "description": "This beautiful holiday home is waiting for you to stay in. This bright, clean, and modern home is located 29 miles from Yosemite National Park. It has new beds and furniture."
+    },
+    {
+        "id": "4",
+        "name": "Donya Marie's Cottage",
+        "image": "img/donya-maries-cottage.jpg",
+        "description": "You have a perfect choice to combine your river rafting adventure with a visit to the park. Test our waters."
+    },
+    {
+        "id": "5",
+        "name": "Sierra Meadow Cottage",
+        "image": "img/sierra-meadow-cottage.jpg",
+        "description":"Rent this cabin, located not far from Yosemite National Park, breathe the pure mountain air, drink the cleanest water, and enjoy thrilling sunset/sunrise views from the terrace."
+    },
+    {
+        "id": "6",
+        "name": "Yosemite's River House",
+        "image": "img/yosemites-river-house.jpg",
+        "description": "The Yosemite's River House offers a breathtaking view of the Merced River. This spectacular place will surely make you come back. Rent and enjoy your stay!"
+    }
+]

@@ -1,6 +1,8 @@
 .shop{
     padding:90px 0px;
     background-image: url("../img/background-shop-and-cafe.jpeg");
+    background-position: center;
+    background-size: cover;
 }
 
 .shop__title__container{
@@ -18,19 +20,67 @@
 
 .shop__info{
     color:#D1D1D1;
-    padding: 40px 0px;;
+    padding: 20px 0px;;
     font-size: 19px;
+    font-family: var(--description-font-family);
+    font-weight: 400;
+    text-align: center;
+    vertical-align: baseline;
+    max-width: none;
+}
+
+.shop-card{
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px 20px;
+    background-color: #3b755c;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.shop-card__image-container{
+    border-radius: 10px;
+    width: 100%;
+    position:relative;
+    vertical-align: baseline;   
+}
+
+.shop-card__image{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    min-width: 232px;
+    min-height: 150px;
+    max-height: 190px;
+    object-fit: cover;
+}
+
+.shop-card__title{
+    margin-top: 15px;
+    text-align: center;
+    vertical-align: baseline;
+    color:white;
+    font-weight: 500;
+    font-size:22px;
+    font-family:var(--title-font-family);
+
+}
+
+.shop-card__text{
+    color:#BDBDBD;
+    padding: 20px 0px;;
+    font-size: 16px;
     font-family: var(--description-font-family);
     font-weight: 400;
     text-align: center;
     vertical-align: baseline;
 }
 
-.shop__content{
-    padding:0px 15px;
-}
-
-.shop__card{
-    background-color: #FFFFFF17;
-    
+@media (min-width: 768px) {
+    .shop__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;       
+    }
 }
