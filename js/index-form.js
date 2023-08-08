@@ -13,7 +13,7 @@ async function handleSubmit(event) {
         return;
     }
     const response = await fetch(event.target.action, {
-        method: 'POST', // Set the HTTP method to POST
+        method: 'POST',
         body: new FormData(event.target),
         headers: {
             'Accept': 'application/json'
