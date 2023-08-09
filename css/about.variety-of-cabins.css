@@ -2,33 +2,34 @@
     background-image: url(../img/background-variety-of-cabins.jpg);
     background-size: cover;
     background-position: center;
-    width: 100%;
     padding: 50px 32px;
+    width: 100%;
 }
-.variety-of-cabins__subtitle-container{
-    display: flex;    
+
+.variety-of-cabins__subtitle-container {
+    display: flex;
     padding: 40px 15px 10px 15px;
 }
 
 .variety-of-cabins__subtitle {
+    color: var(--description-alternative-color);
     font-family: var(--description-font-family);
     font-size: 16px;
-    text-align: center;
-    color: var(--description-alternative-color);
     line-height: 25.6px;
-    max-width: none;    
+    max-width: none;
+    text-align: center;
 }
 
 .cabins__item {
-    border-radius: 10px;    
-    padding: 0 10px;
-    margin: 10px;      
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px;
+    max-width: 100%;
     min-width: 272px;
     min-height: 400px;
-    max-width: 100%;
-    display: flex;    
-    flex-direction: column;
-    justify-content: flex-start;    
+    padding: 0 10px;
 }
 
 @media (min-width: 768px) {
@@ -40,22 +41,23 @@
 
 @media (min-width: 992px) {
     .variety-of-cabins__cabins {
-        grid-template-columns: 1fr 1fr 1fr;       
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
-.cabins__title-container{   
+
+.cabins__title-container {
     margin-top: 20px;
 }
 
 .cabins__title {
-    color: var(--description-alternative-color); 
+    color: var(--description-alternative-color);
     font-size: 23px;
     font-weight: bold;
-    text-align: center;         
+    text-align: center;
 }
 
-.cabins__description-container{   
-    margin-top: 5px;   
+.cabins__description-container {
+    margin-top: 5px;
 }
 
 .cabins__description {
@@ -63,26 +65,26 @@
     font-family: var(--description-font-family);
     font-size: 16px;
     font-weight: 400;
+    max-width: 100%;
+    line-height: 25.6px;
     text-align: center;
     position: relative;
-    max-width: 100%;       
     word-wrap: break-word;
-    line-height: 25.6px;     
 }
 
 .cabins__image-container {
     border-radius: 10px;
-    width: 100%;
     position: relative;
-    vertical-align: baseline;    
+    vertical-align: baseline;
+    width: 100%;
 }
 
 .cabins__image {
+    align-items: center;
     border-radius: 10px;
     border-color: var(--fields-border-color);
-    min-width: 232px;
-    min-height: 153.812px;
     display: flex;
-    align-items: center;
-    justify-content: center;   
+    justify-content: center;
+    min-height: 153.812px;
+    min-width: 232px;
 }

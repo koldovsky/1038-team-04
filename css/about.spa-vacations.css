@@ -1,0 +1,46 @@
+.spa-vacations__inner {
+    background-image: url(../img/about-background-image-white.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 32px;
+    width: 100%;
+}
+
+.spa-vacations__title {
+    color: var(--text-color);
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.spa-vacations__description {
+    color: var(--text-color);
+    font-family: var(--description-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.spa-vacations__image-container {
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    vertical-align: baseline;
+    width: 100%;
+}
+
+.spa-vacations__image {
+    align-items: center;
+    border-radius: 10px;
+    border-color: var(--fields-border-color);
+    display: flex;
+    justify-content: center;
+    min-width: 232px;
+    min-height: 153.812px;
+}
