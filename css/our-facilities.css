@@ -15,7 +15,9 @@
     z-index: 0;
 }
 .our-facilities__image container img {
-    border-radius: 10%;
+    position: absolute;
+    border-radius: inherit;
     width: 100%;
-    height: auto;
+    height: 100%;
+    font-family: "object-fit:cover";
 }
