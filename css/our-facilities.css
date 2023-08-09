@@ -14,7 +14,8 @@
     background-size: cover;
     z-index: 0;
 }
-.our-facilities__image container img {
+
+.our-facilities__image {
     position: absolute;
     border-radius: 10%;
     width: 100%;
