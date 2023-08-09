@@ -1,7 +1,8 @@
 .our-facilities__title {
-    font-family: var(--title-font-family);
-    font-size: 2.4rem;
-    color: #282520;
+    color: var(--text-color);
+    font-size: 39px;
+    font-weight: 700;
+    margin: 20px;
     text-align: center;
 }
 
