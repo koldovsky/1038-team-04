@@ -1,0 +1,91 @@
+.any-questions_background {
+    padding: 95px 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/contacts_form_background.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.any-questions__content {
+    padding: 60px 15px;
+}
+
+.any-questions__content_info-title {
+    color: white;
+    font-family: var(--title-font-family);
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.any-questions__content_info-text {
+    color: white;
+    font-family: var(--description-font-family);
+    font-size: 19px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.any-questions__form {
+    padding: 0px 0px 0px 15px;      
+}
+
+.any-questions__form-box {
+    margin-top: 50px;
+    background-color: var(--contact-form-color);
+    text-align: center;
+    border-radius: 10px;
+    position: relative;      
+}
+
+.any-questions__form-tel,
+.any-questions__form-name {
+    color: var(--description-alternative-color);
+    padding: 16px 24px;
+    background-color: var(--contact-form-name-color);
+    border: none;
+    border-radius: 30px;
+    width: 80%;
+    font-family: var(--description-font-family);
+    font-size: 14px;
+    outline-color: var(--form_outline-color);
+}
+
+.any-questions__form-name {
+    margin: 32px;
+}
+
+.any-questions__form-tel {
+    margin: 0px 32px 0px;
+}
+
+.any-questions__form-input-button {
+    color: white;
+    background-color: var(--title-color);
+    border: none;
+    margin: 48px 32px 32px;
+    border-radius: 30px;
+    padding: 16px 24px;
+    width: 80%;
+    font-family: var(--description-font-family);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.any-questions__form-input-button:hover {
+    background-color: var(--icons-color);
+}
+
+@media (min-width: 768px) {
+
+    .any-questions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .any-questions__content_info-text {
+        margin: 20px 0px 20px;
+    }
+
+    .any-questions__form-box {
+        margin-top: 0px;
+    }
+}
