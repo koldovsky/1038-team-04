@@ -2,36 +2,36 @@
     background-image: url(../img/background-things-to-do.jpeg);
     background-size: cover;
     background-position: center;
-    width: 100%;
     padding: 32px;
+    width: 100%;
 }
 
 .things-to-do__title {
-    color: var(--text-color);    
+    color: var(--text-color);
     font-size: 39px;
     font-weight: 700;
-    text-align: center;
     margin: 20px;
+    text-align: center;
 }
 
 .cards__item {
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
     background-color: var(--background-color);
     border-color: var(--fields-border-color);
-    min-width: 272px;
-    min-height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px var(--fields-border-color);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    box-shadow: 0 5px 20px var(--fields-border-color);
+    margin: 20px;
+    min-width: 272px;
+    min-height: 400px;
+    padding: 20px;
 }
 
 @media (min-width: 768px) {
     .things-to-do__cards {
         display: grid;
-        grid-template-columns: 1fr 1fr;       
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -40,27 +40,28 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-.cards__heading{   
+
+.cards__heading {
     margin-top: 20px;
 }
 
 .cards__heading-text {
-    color: var(--text-color);    
+    color: var(--text-color);
     font-size: 23px;
     font-weight: bold;
-    text-align: center;      
+    text-align: center;
 }
 
 .cards__subheading {
-    color: var(--title-color);    
+    color: var(--title-color);
     font-size: 20px;
     font-weight: bold;
+    margin-top: 5px;
     text-align: center;
-    margin-top: 5px;    
 }
 
-.cards__description{   
-    margin-top: 25px;   
+.cards__description {
+    margin-top: 25px;
 }
 
 .cards__description-text {
@@ -68,26 +69,26 @@
     font-family: var(--description-font-family);
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
+    line-height: 25.6px;
+    max-width: 100%;
     position: relative;
-    max-width: 100%;       
+    text-align: center;
     word-wrap: break-word;
-    line-height: 25.6px;     
 }
 
 .cards__item-image-container {
     border-radius: 10px;
-    width: 100%;
     position: relative;
-    vertical-align: baseline;    
+    vertical-align: baseline;
+    width: 100%;
 }
 
 .cards__image {
+    align-items: center;
     border-radius: 10px;
     border-color: var(--fields-border-color);
+    display: flex;
+    justify-content: center;
     min-width: 232px;
     min-height: 153.812px;
-    display: flex;
-    align-items: center;
-    justify-content: center;   
 }
