@@ -7,9 +7,15 @@
 }
 
 .our-facilities {
+
     padding: 80px 24px;
     background-image: url(../img/background-img-facilities.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
+}
+.our-facilities__image container img {
+    border-radius: 10%;
+    width: 100%;
+    height: auto;
 }
