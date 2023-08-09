@@ -1,8 +1,8 @@
 .our-facilities__title {
-    font-family: var(--title-font-family);
-    font-size: 2.4rem;
-    font-weight: bold;
-    color: #282520;
+    color: var(--text-color);
+    font-size: 39px;
+    font-weight: 700;
+    margin: 20px;
     text-align: center;
 }
 
@@ -11,5 +11,16 @@
     background-image: url(../img/background-img-facilities.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 0;
+}
+
+.our-facilities__image {
+    border-radius: 10px;
+    max-height: 350px;
+}
+
+@media (min-width: 1588px) {
+    .our-facilities__image {
+        border-radius: 10px;
+        max-width: 458px;
+    }
 }
