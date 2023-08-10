@@ -1,8 +1,26 @@
-.our-facilities__text {
-    color: black;
+.our-facilities__title {
+    color: var(--text-color);
+    font-size: 39px;
+    font-weight: 700;
+    margin: 20px;
     text-align: center;
-    border: 1px solid black; 
-    padding: 10px; 
-    margin: 0; 
 }
 
+.our-facilities {
+    padding: 80px 24px;
+    background-image: url(../img/background-img-facilities.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-facilities__image {
+    border-radius: 10px;
+    max-height: 350px;
+}
+
+@media (min-width: 1588px) {
+    .our-facilities__image {
+        border-radius: 10px;
+        max-width: 458px;
+    }
+}
